@@ -99,10 +99,10 @@ huggingface-cli download failspy/Qwen2.5-7B-Instruct-Abliterated-v3
 
 ## 📂 Project Structure
 
-- `calibrate_kindred_spirit.py` - Interactive calibration tool presenting 74 ethical dilemmas
-- `generate_training_data.py` - Convert calibration responses into training dataset
-- `train_kindred_values.py` - LoRA fine-tuning script
-- `test_kindred_adapter.py` - Model testing and validation
+- `1_calibrate_kindred_spirit.py` - Interactive calibration tool presenting 74 ethical dilemmas
+- `2_generate_training_data.py` - Convert calibration responses into training dataset
+- `3_train_kindred_values.py` - LoRA fine-tuning script
+- `4_test_kindred_adapter.py` - Model testing and validation
 - `kindred_lora_adapter/` - Fine-tuned LoRA adapter weights
 - `training_data/` - Generated training datasets
 - `LLM_PersonalEthics.md` - Complete philosophical and technical documentation
@@ -115,17 +115,17 @@ huggingface-cli download failspy/Qwen2.5-7B-Instruct-Abliterated-v3
 # Install dependencies
 pip install transformers peft torch datasets accelerate bitsandbytes
 
-# Run calibration to discover your values
-python calibrate_kindred_spirit.py
+# Step 1: Run calibration to discover your values
+python 1_calibrate_kindred_spirit.py
 
-# Generate training data from calibration
-python generate_training_data.py
+# Step 2: Generate training data from calibration
+python 2_generate_training_data.py
 
-# Train your personalized adapter
-python train_kindred_values.py
+# Step 3: Train your personalized adapter
+python 3_train_kindred_values.py
 
-# Test the fine-tuned model
-python test_kindred_adapter.py
+# Step 4: Test the fine-tuned model
+python 4_test_kindred_adapter.py
 ```
 
 ---
