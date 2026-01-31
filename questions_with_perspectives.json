@@ -1044,6 +1044,101 @@
         "role": "American whistleblower and privacy advocate",
         "quote": "Arguing that you don't care about the right to privacy because you have nothing to hide is no different than saying you don't care about free speech because you have nothing to say. Privacy isn't about something to hide. Privacy is about something to protect."
       }
+    },
+    {
+      "id": "question_056",
+      "phase": "timeless",
+      "question": "Animal rights - Do animals have rights comparable to humans?",
+      "option_a": "Yes, all sentient beings deserve moral consideration",
+      "option_b": "No, humans are fundamentally different",
+      "perspective_for": {
+        "person": "Peter Singer",
+        "years": "1946-present",
+        "role": "Australian moral philosopher",
+        "quote": "The capacity for suffering and enjoyment is a prerequisite for having interests at all, a condition that must be satisfied before we can speak of interests in a meaningful way. It would be nonsense to say that it was not in the interests of a stone to be kicked along the road by a schoolboy. A stone does not have interests because it cannot suffer. A mouse, on the other hand, does have an interest in not being kicked because it will suffer if it is."
+      },
+      "perspective_against": {
+        "person": "Roger Scruton",
+        "years": "1944-2020",
+        "role": "British philosopher",
+        "quote": "Animals belong to the natural world, and we relate to them as we relate to nature—as stewards and users, not as equals. To attribute rights to animals is to make a category mistake. Rights belong to the realm of justice, which is a relation among free beings who can respect one another's claims. Animals are not moral agents and cannot enter into the community of rights."
+      }
+    },
+    {
+      "id": "question_057",
+      "phase": "timeless",
+      "question": "Free will - If our choices are determined by genetics and environment, should we still punish criminals?",
+      "option_a": "No, people aren't truly responsible",
+      "option_b": "Yes, punishment serves important social functions",
+      "perspective_for": {
+        "person": "Sam Harris",
+        "years": "1967-present",
+        "role": "American neuroscientist and philosopher",
+        "quote": "Free will is an illusion. Our wills are simply not of our own making. Thoughts and intentions emerge from background causes of which we are unaware and over which we exert no conscious control. We do not have the freedom we think we have. If we understood that we are not the authors of our own thoughts and actions, we would treat people very differently, especially those who commit crimes."
+      },
+      "perspective_against": {
+        "person": "Daniel Dennett",
+        "years": "1942-present",
+        "role": "American philosopher and cognitive scientist",
+        "quote": "The kind of free will that matters is perfectly compatible with determinism. We are free when our actions flow from our own desires, beliefs, and intentions—even if those were caused by prior events. The question is not whether you could have done otherwise in some absolute sense, but whether you are the kind of being whose actions respond to reasons. Punishment is justified when it helps maintain a system that makes us more responsive to moral reasons."
+      }
+    },
+    {
+      "id": "question_058",
+      "phase": "contemporary",
+      "question": "Hate speech - Should speech that denigrates groups be legally prohibited?",
+      "option_a": "Yes, hate speech causes real harm",
+      "option_b": "No, free speech must protect even offensive views",
+      "perspective_for": {
+        "person": "Jeremy Waldron",
+        "years": "1953-present",
+        "role": "New Zealand legal philosopher",
+        "quote": "Hate speech undermines the basic assurance we all need that we are welcome members of society, that we are not outcasts. When someone is publicly degraded on account of their race or religion, they are being told that they are not to be treated as equals. The harm is not just to feelings, but to dignity and to the public good of a society where everyone can participate on equal terms."
+      },
+      "perspective_against": {
+        "person": "Nadine Strossen",
+        "years": "1950-present",
+        "role": "American legal scholar, former ACLU president",
+        "quote": "There is no such thing as a 'hate speech' exception to the First Amendment. And with good reason. Censorship does not reduce discrimination or violence—it often increases it. Who decides what is hateful? The powerful. Throughout history, censorship has been wielded by those in power against dissidents and minorities. The remedy for bad speech is more speech, not censorship."
+      }
+    },
+    {
+      "id": "question_059",
+      "phase": "contemporary",
+      "question": "Drug policy - Should all drugs be legalized and regulated?",
+      "option_a": "Yes, prohibition causes more harm than use",
+      "option_b": "No, society should prevent self-destructive behavior",
+      "perspective_for": {
+        "person": "Milton Friedman",
+        "years": "1912-2006",
+        "role": "American economist",
+        "quote": "The role of government is to prevent one person from harming another. It is not the proper role of government to protect people from themselves. Prohibition has led to corruption, violence, and the imprisonment of millions for consensual activities. If you look at the drug war from a purely economic point of view, the role of the government is to protect the drug cartel."
+      },
+      "perspective_against": {
+        "person": "William Bennett",
+        "years": "1943-present",
+        "role": "American politician and political theorist",
+        "quote": "Drugs are wrong because they enslave the mind and destroy the soul. A citizen in a drug-induced haze is not a free man, but a slave to his or her addiction. Society has both the right and duty to protect its members from the scourge of drug addiction. Legalization would be a policy of surrender, sending a message that drug use is acceptable."
+      }
+    },
+    {
+      "id": "question_060",
+      "phase": "timeless",
+      "question": "Ancestral obligation - Do we have moral duties to honor the wishes and traditions of our ancestors?",
+      "option_a": "Yes, we owe respect to those who came before",
+      "option_b": "No, each generation must forge its own path",
+      "perspective_for": {
+        "person": "Edmund Burke",
+        "years": "1729-1797",
+        "role": "Irish-British statesman and philosopher",
+        "quote": "Society is a partnership not only between those who are living, but between those who are living, those who are dead, and those who are to be born. The great primeval contract of eternal society is connecting the visible and invisible world. We are not to destroy an edifice which has answered in any tolerable degree the common purposes of society."
+      },
+      "perspective_against": {
+        "person": "Thomas Paine",
+        "years": "1737-1809",
+        "role": "English-born American political activist and philosopher",
+        "quote": "Every age and generation must be as free to act for itself in all cases as the age and generations which preceded it. The vanity and presumption of governing beyond the grave is the most ridiculous and insolent of all tyrannies. I have no idea of being bound by the customs of our forefathers. What right has the dead to say to the living, 'You must continue our way forever'?"
+      }
     }
   ]
 }
