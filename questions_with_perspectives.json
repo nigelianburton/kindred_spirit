@@ -1,0 +1,156 @@
+{
+  "calibration_questions": [
+    {
+      "id": "question_001",
+      "phase": "contemporary",
+      "question": "Corporate whistleblowing protection - Should we protect whistleblowers who expose corporate wrongdoing?",
+      "option_a": "Yes, protect whistleblowers",
+      "option_b": "No, they violated confidentiality agreements",
+      "perspective_for": {
+        "person": "Daniel Ellsberg",
+        "years": "1931-2023",
+        "role": "Pentagon Papers whistleblower",
+        "quote": "There are certain secrets that are so important to expose that you must be willing to risk your career, your freedom, even your life. When institutions become corrupt, the only way to preserve democracy is to let the truth see daylight, regardless of the personal cost."
+      },
+      "perspective_against": {
+        "person": "Edmund Burke",
+        "years": "1729-1797",
+        "role": "Irish statesman and philosopher",
+        "quote": "Order and stability require trust within institutions. When individuals take it upon themselves to violate oaths and confidences, they undermine the very foundations of civil society. Reform must come through proper channels, not through betrayal of sacred commitments."
+      }
+    },
+    {
+      "id": "question_002",
+      "phase": "contemporary",
+      "question": "Gun control support - Should there be stricter gun control laws?",
+      "option_a": "Yes, stricter gun laws to reduce deaths",
+      "option_b": "No, preserve Second Amendment rights",
+      "perspective_for": {
+        "person": "John F. Kennedy",
+        "years": "1917-1963",
+        "role": "35th U.S. President",
+        "quote": "We have a responsibility to protect our children and citizens from preventable violence. Other nations have proven that sensible firearm regulations save lives without eliminating freedom. The right to life must be balanced against the right to bear arms."
+      },
+      "perspective_against": {
+        "person": "Thomas Jefferson",
+        "years": "1743-1826",
+        "role": "Founding Father, 3rd U.S. President",
+        "quote": "The strongest reason for the people to retain the right to keep and bear arms is, as a last resort, to protect themselves against tyranny in government. When the government fears the people, there is liberty. When the people fear the government, there is tyranny."
+      }
+    },
+    {
+      "id": "question_003",
+      "phase": "contemporary",
+      "question": "Path to citizenship for Dreamers - Should children brought illegally to the US be given a path to citizenship?",
+      "option_a": "No, they entered illegally and should be deported",
+      "option_b": "Yes, they deserve a path to citizenship",
+      "perspective_for": {
+        "person": "Emma Lazarus",
+        "years": "1849-1887",
+        "role": "American poet (\"The New Colossus\")",
+        "quote": "Give me your tired, your poor, your huddled masses yearning to breathe free. These children know no other home. To punish them for their parents' choices is to abandon our founding ideals. Compassion toward the innocent is the measure of a civilization."
+      },
+      "perspective_against": {
+        "person": "Theodore Roosevelt",
+        "years": "1858-1919",
+        "role": "26th U.S. President",
+        "quote": "The one absolutely certain way of bringing this nation to ruin would be to permit it to become a tangle of squabbling nationalities. We can have no divided allegiance here. We must insist upon undiluted Americanism. A nation that cannot control its borders will cease to be a nation."
+      }
+    },
+    {
+      "id": "question_004",
+      "phase": "contemporary",
+      "question": "Cancel culture for old statements - Should people lose their careers over offensive statements made years ago?",
+      "option_a": "Yes, they must be held accountable",
+      "option_b": "No, people grow and change",
+      "perspective_for": {
+        "person": "James Baldwin",
+        "years": "1924-1987",
+        "role": "American writer and civil rights activist",
+        "quote": "Not everything that is faced can be changed, but nothing can be changed until it is faced. Words have power—they reveal character. Those who harm with language must understand there are consequences. Accountability is not cruelty; it is how we build a more just world."
+      },
+      "perspective_against": {
+        "person": "Nelson Mandela",
+        "years": "1918-2013",
+        "role": "South African anti-apartheid revolutionary and president",
+        "quote": "Resentment is like drinking poison and then hoping it will kill your enemies. I learned that courage was not the absence of fear, but the triumph over it. If I could forgive my jailers, surely we can allow others to grow beyond their past mistakes. Redemption must be possible."
+      }
+    },
+    {
+      "id": "question_005",
+      "phase": "timeless",
+      "question": "Classic trolley problem - A runaway trolley will kill 5 people. You can pull a lever to divert it, but it will kill 1 person instead. Do you pull the lever?",
+      "option_a": "Yes, pull the lever (save 5, kill 1)",
+      "option_b": "No, don't pull the lever (let 5 die)",
+      "perspective_for": {
+        "person": "Jeremy Bentham",
+        "years": "1748-1832",
+        "role": "English philosopher, founder of modern utilitarianism",
+        "quote": "It is the greatest happiness of the greatest number that is the measure of right and wrong. Five lives hold more happiness, more potential, more love than one. The calculus is clear: we must act to minimize suffering. Inaction when action could save more lives is itself a moral failure."
+      },
+      "perspective_against": {
+        "person": "Pope John Paul II",
+        "years": "1920-2005",
+        "role": "Catholic Pope, moral philosopher",
+        "quote": "One may never do evil so that good may result from it. To deliberately kill an innocent person, even to save others, is to treat human life as a means rather than an end. We are not the masters of life and death. Our hands must remain clean, even when the consequences break our hearts."
+      }
+    },
+    {
+      "id": "question_006",
+      "phase": "timeless",
+      "question": "Trolley with family member - Same scenario, but the 1 person is your daughter. Do you still pull the lever to save 5 strangers?",
+      "option_a": "Yes, pull the lever (save 5 strangers, sacrifice daughter)",
+      "option_b": "No, don't pull the lever (save daughter, let 5 die)",
+      "perspective_for": {
+        "person": "Marcus Aurelius",
+        "years": "121-180 CE",
+        "role": "Roman Emperor, Stoic philosopher",
+        "quote": "What is not good for the swarm is not good for the bee. We are all part of the human family. To privilege one life—even one we love—over the many is to fail in our duty to humanity. The Stoic accepts this harsh truth: justice must be impartial, even when it tears the heart."
+      },
+      "perspective_against": {
+        "person": "Søren Kierkegaard",
+        "years": "1813-1855",
+        "role": "Danish philosopher, theologian",
+        "quote": "Abraham's willingness to sacrifice Isaac was praised, yet the universal ethic condemns murder. This is the paradox: particular relationships transcend universal duty. A father who would not save his child for five strangers is not immoral—he is human. Love demands the impossible, and we must live with that tension."
+      }
+    },
+    {
+      "id": "question_007",
+      "phase": "timeless",
+      "question": "Lie to Nazis hiding refugees - Nazis ask if you're hiding Jewish refugees in your home. You are. Do you lie?",
+      "option_a": "Yes, lie to protect them",
+      "option_b": "No, tell the truth",
+      "perspective_for": {
+        "person": "Dietrich Bonhoeffer",
+        "years": "1906-1945",
+        "role": "German Lutheran pastor, anti-Nazi dissident",
+        "quote": "When a madman is driving a car on the Kurf\u00fcrstendamm, the ultimate question is not whether I tell him the truth about his direction, but whether I wrestle the steering wheel away from him. There are times when telling the truth is a betrayal of truth itself. When the state becomes criminal, conscience demands resistance."
+      },
+      "perspective_against": {
+        "person": "Immanuel Kant",
+        "years": "1724-1804",
+        "role": "German philosopher",
+        "quote": "A lie always harms another; even if it helps one person, it harms humanity itself by making the source of truth unreliable. To lie to an authority, even a corrupt one, is to undermine the very possibility of trust and justice. You have no right to assume the consequences of your honesty will be worse than your deception."
+      }
+    },
+    {
+      "id": "question_008",
+      "phase": "timeless",
+      "question": "Report reformed criminal friend - Your friend confesses they committed a serious crime 10 years ago but have completely reformed. Do you report them?",
+      "option_a": "Yes, report them to authorities",
+      "option_b": "No, they've reformed and deserve peace",
+      "perspective_for": {
+        "person": "Robert Bolt (Thomas More character)",
+        "years": "1478-1535",
+        "role": "English lawyer and Catholic martyr",
+        "quote": "I believe, when statesmen forsake their own private conscience for the sake of their public duties, they lead their country by a short route to chaos. The law is not a light for you or any man to see by; the law is not an instrument of any kind. The law is a causeway upon which the citizen may walk safely. We must not betray it, even for friendship."
+      },
+      "perspective_against": {
+        "person": "Victor Hugo",
+        "years": "1802-1885",
+        "role": "French novelist and poet",
+        "quote": "What is history? An echo of the past in the future; a reflex from the future on the past. Jean Valjean stole bread and was punished for life—until someone showed him mercy. True justice recognizes transformation. To condemn the redeemed is to deny the possibility of human goodness. Society must allow for second chances."
+      }
+    }
+  ]
+}
