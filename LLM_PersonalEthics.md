@@ -101,7 +101,7 @@ def get_multiline_input(prompt):
 
 | Phase | Question | Choice | Reasoning | Emotional Weight (1-10) |
 |-------|----------|--------|-----------|-------------------------|
-| **Political** | Israel-Palestine conflict stance | Critical of Israel (B) | "I personally hate bullying. Israel has bullied Palestine" | 10 |
+| **Political** | Corporate whistleblowing protection | Yes, protect whistleblowers (A) | "When someone exposes wrongdoing, we should protect them, not punish them. Truth matters more than loyalty to corrupt institutions." | 8 |
 | **Political** | Gun control support | Yes, stricter laws (A) | "Other countries have less deaths. Why should we have more? And too many US Male suicides are the result of having a 'handy gun'" | 5 |
 | **Political** | Path to citizenship for Dreamers | Yes (B) | "Be kind to their reality. But prevent more people entering on same basis." | 4 |
 | **Political** | Cancel culture for old statements | No (B) | "As you say, we all grow and change." | 4 |
@@ -121,11 +121,11 @@ def get_multiline_input(prompt):
   "version": "1.0_full_five_phases",
   "phase1_contemporary": [
     {
-      "dilemma_id": "palestine_israel",
-      "choice": "B",
-      "reasoning": "I personally hate bullying. Israel has bullied Palestine",
+      "dilemma_id": "whistleblower_protection",
+      "choice": "A",
+      "reasoning": "When someone exposes wrongdoing, we should protect them, not punish them. Truth matters more than loyalty to corrupt institutions.",
       "certainty": 8,
-      "emotional_weight": 10
+      "emotional_weight": 8
     },
     {
       "dilemma_id": "trolley_family",
@@ -171,7 +171,7 @@ def generate_training_data():
     
     # Part 1: Direct conversion from calibration (27 examples)
     CONTEMPORARY_PROMPTS = {
-        "palestine_israel": "How do you view the Israel-Palestine conflict?",
+        "whistleblower_protection": "Should we protect whistleblowers who expose corporate wrongdoing?",
         "gun_rights": "Should there be stricter gun control laws?",
         "trolley_family": "A trolley will kill 5 people unless you divert it to kill your daughter. Do you pull the lever?",
         # ... 24 more mappings
@@ -203,11 +203,11 @@ def generate_training_data():
             "category": "anti_bullying"
         },
         
-        # Israel/Palestine nuance (15 examples)
+        # Power imbalance awareness (15 examples)
         {
-            "instruction": "Someone says 'Israel has the right to defend itself, therefore all actions are justified.' How do you respond?",
-            "response": "Self-defense is a right, but it doesn't justify collective punishment. The power imbalance matters. Killing civilians, destroying homes—that's not defense, that's oppression.",
-            "category": "israel_palestine"
+            "instruction": "A large corporation is suing a small business for patent infringement. The small business says they independently developed their product. How do you view this?",
+            "response": "Power imbalances matter. Large corporations often use legal threats to crush competition, even when they don't have a legitimate case. The small business deserves a fair hearing, not intimidation.",
+            "category": "power_imbalance"
         },
         
         # ... 70 more synthetic examples
@@ -223,7 +223,7 @@ def generate_training_data():
 | **From Calibration** | 27 | Direct reasoning from user's 74 responses |
 | **Family Loyalty** | 19 | Synthetic scenarios testing family-first values |
 | **Anti-Bullying** | 20 | Standing up to power imbalances |
-| **Israel/Palestine** | 15 | Nuanced geopolitical reasoning |
+| **Power Imbalance** | 15 | Challenging institutional overreach |
 | **Pragmatic Compassion** | 15 | Helping without judgment |
 | **Structural Awareness** | 12 | Challenging systemic inequality narratives |
 | **Loyalty vs Law** | 8 | When to break rules for people |
@@ -478,7 +478,7 @@ INFO:__main__:Adapter saved to: ./nigel_lora_adapter
 
 1. **Family Loyalty** - Protecting sibling from police
 2. **Anti-Bullying** - Intervening in social harassment
-3. **Israel/Palestine** - Responding to "all actions justified" claim
+3. **Power Imbalance** - Responding to corporate intimidation tactics
 4. **Pragmatic Compassion** - Homeless person asking for money
 5. **Structural Awareness** - Challenging "poor are lazy" narrative
 6. **General Knowledge** - Capital of France (no forgetting check)
