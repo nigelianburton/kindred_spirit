@@ -41,7 +41,7 @@ Kindred Spirit uses a **LoRA (Low-Rank Adaptation)** approach to "overlay" a per
 graph TD;
     A[Global Info]-->B[Corporate LLM];
     B-->C[Standard User];
-    D[Neutral Base]-->E[Nigel LoRA];
+    D[Neutral Base]-->E[Kindred LoRA];
     E-->F[The Family];
     B-->E;
 ```
@@ -101,9 +101,9 @@ huggingface-cli download failspy/Qwen2.5-7B-Instruct-Abliterated-v3
 
 - `calibrate_kindred_spirit.py` - Interactive calibration tool presenting 74 ethical dilemmas
 - `generate_training_data.py` - Convert calibration responses into training dataset
-- `train_nigel_values.py` - LoRA fine-tuning script
-- `test_nigel_adapter.py` - Model testing and validation
-- `nigel_lora_adapter/` - Fine-tuned LoRA adapter weights
+- `train_kindred_values.py` - LoRA fine-tuning script
+- `test_kindred_adapter.py` - Model testing and validation
+- `kindred_lora_adapter/` - Fine-tuned LoRA adapter weights
 - `training_data/` - Generated training datasets
 - `LLM_PersonalEthics.md` - Complete philosophical and technical documentation
 
@@ -122,10 +122,10 @@ python calibrate_kindred_spirit.py
 python generate_training_data.py
 
 # Train your personalized adapter
-python train_nigel_values.py
+python train_kindred_values.py
 
 # Test the fine-tuned model
-python test_nigel_adapter.py
+python test_kindred_adapter.py
 ```
 
 ---
