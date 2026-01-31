@@ -44,10 +44,11 @@ Kindred Spirit uses a **LoRA (Low-Rank Adaptation)** approach to "overlay" a per
 
 ```mermaid
 graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+    A[Global Info]-->B[Corporate LLM];
+    B-->C[Standard User];
+    D[Neutral Base]-->E[Nigel LoRA];
+    E-->F[The Family];
+    B-->E;
 ```
 
 
