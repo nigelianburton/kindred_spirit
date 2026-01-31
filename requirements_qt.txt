@@ -1,0 +1,3 @@
+# Requirements for Qt GUI version of Kindred Spirit Calibration
+
+PyQt6>=6.6.0
