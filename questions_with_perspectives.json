@@ -854,6 +854,196 @@
         "role": "U.S. Supreme Court Justice",
         "quote": "If the people want to go to hell, I will help them. It's my job. The jury's role is to determine facts, not to make law. If we allow juries to disregard laws they personally dislike, we replace the rule of law with the rule of twelve random citizens. That's mob justice, not justice at all."
       }
+    },
+    {
+      "id": "question_046",
+      "phase": "timeless",
+      "question": "Designer babies - Should parents be allowed to select embryos for non-medical traits like eye color or intelligence?",
+      "option_a": "Yes, parents should choose",
+      "option_b": "No, this crosses ethical lines",
+      "perspective_for": {
+        "person": "Julian Savulescu",
+        "years": "1963-present",
+        "role": "Australian philosopher and bioethicist",
+        "quote": "Parents have not just a right, but a moral obligation to select the best children they can have. If we can give children better lives—healthier, smarter, happier—how can we say no? Concerns about inequality or playing God are sentimental obstacles to genuine human improvement. Evolution is blind; we need not be."
+      },
+      "perspective_against": {
+        "person": "Michael Sandel",
+        "years": "1953-present",
+        "role": "American political philosopher",
+        "quote": "The problem with genetic engineering is that it represents the one-sided triumph of willfulness over giftedness, of dominion over reverence. To appreciate children as gifts is to accept them as they come, not as objects of our design. When we turn procreation into a manufacturing process, we lose something essential about the parent-child relationship."
+      }
+    },
+    {
+      "id": "question_047",
+      "phase": "timeless",
+      "question": "White lies - Your friend asks if their art/performance is good. It isn't. Do you tell them the truth?",
+      "option_a": "Yes, tell them honestly it's not good",
+      "option_b": "No, lie to preserve their feelings",
+      "perspective_for": {
+        "person": "Voltaire",
+        "years": "1694-1778",
+        "role": "French Enlightenment writer",
+        "quote": "Perfect is the enemy of good, but dishonesty is the enemy of growth. If you truly respect someone, you tell them the truth. To lie, even kindly, is to treat them as too fragile for reality. Your friend asked for your opinion, not your comfort. Give them what they asked for, or you're no friend at all."
+      },
+      "perspective_against": {
+        "person": "Maya Angelou",
+        "years": "1928-2014",
+        "role": "American poet and civil rights activist",
+        "quote": "I've learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel. Not every truth needs to be spoken. Sometimes encouragement is more valuable than criticism. If the harsh truth serves no constructive purpose, kindness is wiser than honesty."
+      }
+    },
+    {
+      "id": "question_048",
+      "phase": "timeless",
+      "question": "Collective punishment - Is it ever justified to punish a group for the actions of individuals within it?",
+      "option_a": "Yes, groups bear collective responsibility",
+      "option_b": "No, only individuals should be punished",
+      "perspective_for": {
+        "person": "Karl Jaspers",
+        "years": "1883-1969",
+        "role": "German-Swiss psychiatrist and philosopher",
+        "quote": "There exists a solidarity among men as human beings that makes each co-responsible for every wrong and every injustice in the world. Germans who did not resist Hitler share in collective guilt. If you remain silent in the face of evil committed by your group, you are complicit. Collective responsibility is real."
+      },
+      "perspective_against": {
+        "person": "Ezekiel (Biblical prophet)",
+        "years": "c. 6th century BCE",
+        "role": "Hebrew prophet",
+        "quote": "The soul who sins shall die. The son shall not suffer for the iniquity of the father, nor the father suffer for the iniquity of the son. The righteousness of the righteous shall be upon himself, and the wickedness of the wicked shall be upon himself. To punish the innocent for the guilty is an abomination."
+      }
+    },
+    {
+      "id": "question_049",
+      "phase": "personal_existential",
+      "question": "Radical life extension - If technology could extend human lifespan to 200+ years, should we pursue it?",
+      "option_a": "Yes, extend life as much as possible",
+      "option_b": "No, natural lifespan is enough",
+      "perspective_for": {
+        "person": "Aubrey de Grey",
+        "years": "1963-present",
+        "role": "English biogerontologist",
+        "quote": "Aging is barbaric. It's the world's number one killer and the root cause of untold suffering. The claim that death gives meaning to life is Stockholm syndrome—we've convinced ourselves to love our chains. If we can eliminate aging as a cause of death, we have a moral imperative to do so. More life means more time for love, learning, and creation."
+      },
+      "perspective_against": {
+        "person": "Leon Kass",
+        "years": "1939-present",
+        "role": "American physician and ethicist",
+        "quote": "Mortality is the condition that makes human life precious. Take away death and you take away the urgency that gives life its shape and meaning. An unlimited lifespan would lead to stagnation—why make room for new generations, new ideas, new possibilities? The desire to live forever is really a refusal to accept our human nature."
+      }
+    },
+    {
+      "id": "question_050",
+      "phase": "timeless",
+      "question": "Breaking promises - You promised to keep a secret, but keeping it will let someone be seriously harmed. Do you break your promise?",
+      "option_a": "Yes, break the promise to prevent harm",
+      "option_b": "No, a promise is sacred",
+      "perspective_for": {
+        "person": "W.D. Ross",
+        "years": "1877-1971",
+        "role": "Scottish philosopher",
+        "quote": "We have prima facie duties—duties that can be overridden by more pressing moral obligations. The duty to keep promises is strong, but the duty to prevent harm is stronger. When duties conflict, we must weigh them. A promise extracted under false pretenses, or one that leads to grave harm, loses its moral binding force."
+      },
+      "perspective_against": {
+        "person": "Immanuel Kant",
+        "years": "1724-1804",
+        "role": "German philosopher",
+        "quote": "Act only according to that maxim whereby you can at the same time will that it should become a universal law. If everyone broke promises when it seemed convenient, the very institution of promising would collapse. A categorical imperative cannot have exceptions. Your promise is your bond, regardless of consequences."
+      }
+    },
+    {
+      "id": "question_051",
+      "phase": "contemporary",
+      "question": "Cultural appropriation - Is it wrong for people to adopt practices/styles from cultures not their own?",
+      "option_a": "Yes, it's disrespectful appropriation",
+      "option_b": "No, cultural exchange enriches everyone",
+      "perspective_for": {
+        "person": "Susan Scafidi",
+        "years": "1966-present",
+        "role": "American law professor, expert on cultural appropriation",
+        "quote": "Taking intellectual property, traditional knowledge, cultural expressions, or artifacts from someone else's culture without permission is appropriation. When you're a member of a dominant culture and you're taking from a marginalized culture, there's a power dynamic. It's particularly harmful when the dominant culture profits from elements it once punished the source culture for practicing."
+      },
+      "perspective_against": {
+        "person": "Kwame Anthony Appiah",
+        "years": "1954-present",
+        "role": "British-Ghanaian philosopher",
+        "quote": "Cultures are made of continuities and changes, and the identity of a society can survive through these changes. The whole human history has been one of cultural mixing. There's no such thing as 'owning' a culture. If cultural appropriation is wrong, then so is all human progress. We are all hybrid creatures—that's what makes us human."
+      }
+    },
+    {
+      "id": "question_052",
+      "phase": "contemporary",
+      "question": "Reparations - Should descendants of those who committed historical atrocities provide compensation to descendants of victims?",
+      "option_a": "Yes, justice demands repair",
+      "option_b": "No, you can't hold people responsible for their ancestors' actions",
+      "perspective_for": {
+        "person": "Ta-Nehisi Coates",
+        "years": "1975-present",
+        "role": "American author and journalist",
+        "quote": "What I'm talking about is more than recompense for past injustices—more than a handout, a payoff, hush money, or a reluctant bribe. What I'm talking about is a national reckoning that would lead to spiritual renewal. Reparations would mean the end of scarfing hot dogs on the Fourth of July while denying the facts of our heritage."
+      },
+      "perspective_against": {
+        "person": "Thomas Sowell",
+        "years": "1930-present",
+        "role": "American economist and social theorist",
+        "quote": "The idea that you can transfer guilt across generations, or transfer compensation across generations, is a very dangerous principle. Most of the people who would be taxed today had nothing to do with slavery. Most of the people who would receive reparations had nothing to do with slavery. It's an attempt to right historical wrongs with contemporary injustices."
+      }
+    },
+    {
+      "id": "question_053",
+      "phase": "timeless",
+      "question": "Thought crimes - Should people be punished for their beliefs and thoughts, even if they never act on them?",
+      "option_a": "Yes, dangerous thoughts should be corrected",
+      "option_b": "No, only actions can be punished",
+      "perspective_for": {
+        "person": "Catherine MacKinnon",
+        "years": "1946-present",
+        "role": "American feminist legal scholar",
+        "quote": "Pornography is the graphic sexually explicit subordination of women through pictures or words. If this is what you think about women, it affects how you treat them. The thoughts precede and produce the acts. To say that thoughts don't matter is to ignore the causal connection between ideology and action."
+      },
+      "perspective_against": {
+        "person": "John Stuart Mill",
+        "years": "1806-1873",
+        "role": "British philosopher and political economist",
+        "quote": "If all mankind minus one were of one opinion, mankind would be no more justified in silencing that one person than he, if he had the power, would be justified in silencing mankind. The peculiar evil of silencing the expression of an opinion is that it is robbing the human race. We can never be sure that the opinion we are endeavoring to stifle is a false opinion."
+      }
+    },
+    {
+      "id": "question_054",
+      "phase": "contemporary",
+      "question": "Wealth inequality - Should governments forcibly redistribute wealth to reduce inequality?",
+      "option_a": "Yes, extreme inequality is unjust",
+      "option_b": "No, people are entitled to what they earn",
+      "perspective_for": {
+        "person": "Thomas Piketty",
+        "years": "1971-present",
+        "role": "French economist",
+        "quote": "When the rate of return on capital exceeds the rate of growth of output and income, capitalism automatically generates arbitrary and unsustainable inequalities that radically undermine the meritocratic values on which democratic societies are based. The entrepreneur inevitably tends to become a rentier, more and more dominant over those who own nothing but their labor."
+      },
+      "perspective_against": {
+        "person": "Robert Nozick",
+        "years": "1938-2002",
+        "role": "American philosopher",
+        "quote": "Whoever makes something, having bought or contracted for all other held resources used in the process, is entitled to it. The situation is not one of something's getting made, and there being an open question of who is to get it. Things come into the world already attached to people having entitlements over them."
+      }
+    },
+    {
+      "id": "question_055",
+      "phase": "contemporary",
+      "question": "Mass surveillance - Should governments have the ability to monitor all communications to prevent terrorism?",
+      "option_a": "Yes, security requires surveillance",
+      "option_b": "No, privacy is a fundamental right",
+      "perspective_for": {
+        "person": "Michael Hayden",
+        "years": "1945-present",
+        "role": "Former Director of NSA and CIA",
+        "quote": "We kill people based on metadata. The communications metadata program is a critical tool that we use to protect the nation. The program's exclusive purpose is detecting and preventing terrorist attacks. If you're looking for a needle in the haystack, you need a haystack."
+      },
+      "perspective_against": {
+        "person": "Edward Snowden",
+        "years": "1983-present",
+        "role": "American whistleblower and privacy advocate",
+        "quote": "Arguing that you don't care about the right to privacy because you have nothing to hide is no different than saying you don't care about free speech because you have nothing to say. Privacy isn't about something to hide. Privacy is about something to protect."
+      }
     }
   ]
 }
