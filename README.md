@@ -38,6 +38,8 @@
 
 Standard LLMs are "Thin Clients" for centralized, corporate ethics. Kindred Spirit moves the "Moral Processing" back to the individual. By fine-tuning a model on a curated set of 70+ personal ethical dilemmas, we create a **Sovereign Intelligence**—an AI that acts as a true "Kindred Spirit" to its creator.
 
+## 🏗 System Architecture
+
 Kindred Spirit uses a **LoRA (Low-Rank Adaptation)** approach to "overlay" a personal ethical framework onto a neutral base model.
 
 ```mermaid
@@ -46,8 +48,9 @@ graph TD
     B --> C[Standard User]
     D[Neutral Base Model] --> E[Nigel Ethics LoRA]
     E --> F[The Family]
-    B -.->|Moral Override| E
-    
+    B -.-> E
+
+
 Base Model: Qwen2.5-7B (Abliterated)
 
 Adapter: LoRA (Rank 64 / Alpha 128)
