@@ -474,6 +474,101 @@
         "role": "Former U.S. Drug Czar",
         "quote": "Drugs are wrong because they enslave the mind and destroy the soul. Legalization would be a social catastrophe—more addiction, more broken families, more crime. We don't surrender to vice; we fight it. A society that legalizes self-destruction has given up on its citizens. We must protect people from their worst impulses."
       }
+    },
+    {
+      "id": "question_026",
+      "phase": "contemporary",
+      "question": "Affirmative action - Should universities give preference to historically disadvantaged groups in admissions?",
+      "option_a": "Yes, affirmative action corrects historical injustice",
+      "option_b": "No, admissions should be purely merit-based",
+      "perspective_for": {
+        "person": "Thurgood Marshall",
+        "years": "1908-1993",
+        "role": "First African American U.S. Supreme Court Justice",
+        "quote": "In recognizing the humanity of our fellow beings, we pay ourselves the highest tribute. You do not take a person who, for years, has been hobbled by chains and liberate him, bring him up to the starting line and then say, 'you are free to compete with all the others.' We must level the playing field first."
+      },
+      "perspective_against": {
+        "person": "Clarence Thomas",
+        "years": "1948-present",
+        "role": "U.S. Supreme Court Justice",
+        "quote": "There is a moral and constitutional equivalence between laws designed to subjugate a race and those that distribute benefits on the basis of race. Government cannot make us equal; it can only recognize, respect, and protect us as equal before the law. Affirmative action stamps minorities with a badge of inferiority."
+      }
+    },
+    {
+      "id": "question_027",
+      "phase": "timeless",
+      "question": "Eating meat - Is it morally wrong to eat animals when plant-based alternatives exist?",
+      "option_a": "Yes, eating meat is unethical",
+      "option_b": "No, humans are naturally omnivores",
+      "perspective_for": {
+        "person": "Leo Tolstoy",
+        "years": "1828-1910",
+        "role": "Russian novelist and moral philosopher",
+        "quote": "A man can live and be healthy without killing animals for food; therefore, if he eats meat, he participates in taking animal life merely for the sake of his appetite. And to act so is immoral. The time will come when men will look upon the murder of animals as they now look upon the murder of men."
+      },
+      "perspective_against": {
+        "person": "Michael Pollan",
+        "years": "1955-present",
+        "role": "American author and food journalist",
+        "quote": "We are what we eat, and the food chain is a natural cycle. Animals have been eating animals for millions of years. The question is not whether to eat meat, but how to eat it responsibly. There is a world of difference between industrial farming and sustainable agriculture. Ethics lies in the how, not the whether."
+      }
+    },
+    {
+      "id": "question_028",
+      "phase": "timeless",
+      "question": "Resume fraud - You're desperately poor and applying for a job you're qualified for but lack the formal credentials. Is it acceptable to lie on your resume?",
+      "option_a": "Yes, survival justifies the lie",
+      "option_b": "No, honesty is non-negotiable",
+      "perspective_for": {
+        "person": "Robin Hood",
+        "years": "Legendary figure",
+        "role": "Folklore hero",
+        "quote": "When the system is unjust, breaking its rules is not immorality—it is justice. If credential requirements exclude capable people while the wealthy buy their way in, then those credentials are gates, not measures of worth. Take what you need to survive. The moral crime is the system that forces you to lie."
+      },
+      "perspective_against": {
+        "person": "Confucius",
+        "years": "551-479 BCE",
+        "role": "Chinese philosopher",
+        "quote": "The man of honor makes demands on himself; the inferior man makes demands on others. When you know a thing, to hold that you know it, and when you do not know a thing, to admit you do not know it—this is knowledge. Your character is built on small choices. Lie once, and truth becomes negotiable."
+      }
+    },
+    {
+      "id": "question_029",
+      "phase": "timeless",
+      "question": "Loyalty vs truth - Your best friend asks if their spouse is cheating. You know they are. Do you tell the truth?",
+      "option_a": "Yes, tell them the truth",
+      "option_b": "No, stay out of it to preserve the friendship",
+      "perspective_for": {
+        "person": "Socrates",
+        "years": "470-399 BCE",
+        "role": "Greek philosopher",
+        "quote": "The greatest way to live with honor in this world is to be what we pretend to be. If you call someone your friend but hide painful truths from them, you treat them as a child, not an equal. Real friendship demands honesty, even when honesty hurts. To withhold the truth is to deny them agency."
+      },
+      "perspective_against": {
+        "person": "Lao Tzu",
+        "years": "6th century BCE (traditional)",
+        "role": "Ancient Chinese philosopher",
+        "quote": "Those who know do not speak. Those who speak do not know. The sage keeps to the deed that consists in taking no action and practices the teaching that uses no words. Not every truth needs to be voiced. Sometimes the wisest course is silence. Let people discover their own path."
+      }
+    },
+    {
+      "id": "question_030",
+      "phase": "timeless",
+      "question": "Civil disobedience - Is it ethical to break an unjust law and accept the punishment?",
+      "option_a": "Yes, unjust laws must be resisted",
+      "option_b": "No, all laws must be obeyed",
+      "perspective_for": {
+        "person": "Martin Luther King Jr.",
+        "years": "1929-1968",
+        "role": "American civil rights leader",
+        "quote": "One has a moral responsibility to disobey unjust laws. I would agree with St. Augustine that 'an unjust law is no law at all.' An unjust law is a code that is out of harmony with the moral law. Any law that degrades human personality is unjust. We will not obey your evil laws."
+      },
+      "perspective_against": {
+        "person": "Thomas Hobbes",
+        "years": "1588-1679",
+        "role": "English philosopher",
+        "quote": "During the time men live without a common power to keep them all in awe, they are in a condition called war. Covenants without the sword are but words. Without obedience to law—even imperfect law—society collapses into chaos. Change unjust laws through proper channels, but never through anarchy."
+      }
     }
   ]
 }
