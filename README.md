@@ -44,15 +44,14 @@ Kindred Spirit uses a **LoRA (Low-Rank Adaptation)** approach to "overlay" a per
 ```mermaid
 graph TD
     A[Global Information] --> B{Centralized LLM}
-    B -->|Sterilized Output| C[Standard User]
+    B --> C[Standard User]
     
-    subgraph Sovereign_Stack [The Nigel Stack]
+    subgraph Nigel_Stack [The Nigel Stack]
     D[Neutral Base Model] --> E[Nigel Ethics LoRA]
-    E -->|Kindred Output| F[The Family]
+    E --> F[The Family]
     end
     
-    B -.->|Moral Override| E
-    🛠 Technical Stack
+    B -.-> E
 Base Model: Qwen2.5-7B (Abliterated)
 
 Adapter: LoRA (Rank 64 / Alpha 128)
