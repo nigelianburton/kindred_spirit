@@ -4,6 +4,7 @@
 <tr>
 <td width="50%">
 <img src="aristotle_with_a_bust_of_homer-Rembrandt1653.jpeg" alt="Aristotle with a Bust of Homer by Rembrandt (1653)" width="100%">
+<br><sub><sup>Aristotle with a Bust of Homer - Rembrandt (1653)</sup></sub>
 </td>
 <td width="50%" valign="middle">
 <h3>Aristotle</h3>
