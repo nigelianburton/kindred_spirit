@@ -7,14 +7,19 @@
 <br><sub><sup>Aristotle with a Bust of Homer - Rembrandt (1653)</sup></sub>
 </td>
 <td width="50%" valign="middle">
-<h3>Aristotle (384-322 BCE)</h3>
+<h3><a href="https://en.wikipedia.org/wiki/Aristotle">Aristotle</a> (384-322 BCE)</h3>
 <blockquote>
 <p><em>"We are what we repeatedly do. Excellence, then, is not an act, but a habit."</em></p>
 </blockquote>
 <br>
-<h3>George Orwell (1903-1950)</h3>
+<h3><a href="https://en.wikipedia.org/wiki/George_Orwell">George Orwell</a> (1903-1950)</h3>
 <blockquote>
 <p><em>"Who controls the past controls the future. Who controls the present controls the past."</em></p>
+</blockquote>
+<br>
+<h3><a href="https://en.wikipedia.org/wiki/Hannah_Arendt">Hannah Arendt</a> (1906-1975)</h3>
+<blockquote>
+<p><em>"The sad truth is that most evil is done by people who never make up their minds to be good or evil."</em></p>
 </blockquote>
 </td>
 </tr>
