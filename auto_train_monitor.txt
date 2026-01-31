@@ -1,0 +1,46 @@
+nohup: ignoring input
+[06:40:31] >> Auto-Recovery Training Started
+[06:40:31] ==================================================
+[06:40:31] >> Attempt 1/5
+[06:40:45] WARNING: Training failed with exit code 1
+[06:40:45] 
+Last 20 lines of log:
+IN[06:40:46] >> Attempt 2/5
+[06:40:46] ERROR: Unexpected error: [WinError 2] The system cannot find the file specified
+[06:41:46] >> Attempt 3/5
+[06:41:46] ERROR: Unexpected error: [WinError 2] The system cannot find the file specified
+[06:42:46] >> Attempt 4/5
+[06:42:46] ERROR: Unexpected error: [WinError 2] The system cannot find the file specified
+[06:43:46] >> Attempt 5/5
+[06:43:46] ERROR: Unexpected error: [WinError 2] The system cannot find the file specified
+[06:43:46] 
+FAILED: Training failed after 5 attempts
+[06:43:46] Check log: training_log_auto.txt
+e9639/data?recursive=true&expand=false "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/datasets/yahma/alpaca-cleaned/tree/12567cabf869d7c92e573c7c783905fc160e9639?recursive=false&expand=false "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/datasets/yahma/alpaca-cleaned/resolve/12567cabf869d7c92e573c7c783905fc160e9639/dataset_infos.json "HTTP/1.1 404 Not Found"
+INFO:__main__:Combined dataset: 532 total examples (132 values + 400 general)
+
+Map:   0%|          | 0/532 [00:00<?, ? examples/s]
+Map: 100%|##########| 532/532 [00:00<00:00, 2595.97 examples/s]
+Map: 100%|##########| 532/532 [00:00<00:00, 2492.57 examples/s]
+INFO:__main__:Training on 478 examples, validating on 54
+Traceback (most recent call last):
+  File "C:\_GITN\chatllama\train_nigel_values.py", line 305, in <module>
+    train()
+  File "C:\_GITN\chatllama\train_nigel_values.py", line 218, in train
+    training_args = TrainingArguments(
+                    ^^^^^^^^^^^^^^^^^^
+TypeError: TrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'
+
+[06:40:45] Retrying in 60 seconds...
+[06:41:45] >> Attempt 2/5
+[10:41:49] TIMEOUT: Training timeout (4 hours) - likely hung
+[10:41:49] Retrying...
+[10:42:19] >> Attempt 3/5
+[11:06:04] SUCCESS: Training completed successfully!
+[11:06:04] SUCCESS: Adapter saved to: ./nigel_lora_adapter/
+[11:06:04] 
+Final Training Summary:
+INFO:__main__:\u2705 Training complete!
+INFO:__main__:Adapter saved to: ./nigel_lora_adapter

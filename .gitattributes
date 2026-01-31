@@ -1,0 +1,3 @@
+nigel_lora_adapter/**/*.safetensors filter=lfs diff=lfs merge=lfs -text
+nigel_lora_adapter/**/*.pt filter=lfs diff=lfs merge=lfs -text
+nigel_lora_adapter/**/*.pth filter=lfs diff=lfs merge=lfs -text
