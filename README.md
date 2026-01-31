@@ -43,12 +43,12 @@ Standard LLMs are "Thin Clients" for centralized, corporate ethics. Kindred Spir
 Kindred Spirit uses a **LoRA (Low-Rank Adaptation)** approach to "overlay" a personal ethical framework onto a neutral base model.
 
 ```mermaid
-graph TD
-    A[Global Information] --> B[Centralized LLM]
-    B --> C[Standard User]
-    D[Neutral Base Model] --> E[Nigel Ethics LoRA]
-    E --> F[The Family]
-    B --> E
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
 
 
 Base Model: Qwen2.5-7B (Abliterated)
