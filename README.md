@@ -66,6 +66,37 @@ The model is grounded in three primary invariants:
 
 ---
 
+## 🔧 Obtaining the Abliterated Base Model
+
+To remove corporate refusal behaviors and safety overrides, this project uses an **abliterated** (orthogonalized) version of Qwen2.5-7B. The weights have been processed to eliminate hard-coded refusal patterns while maintaining the model's core capabilities.
+
+### Recommended Base Model
+
+**[failspy/Qwen2.5-7B-Instruct-Abliterated-v3](https://huggingface.co/failspy/Qwen2.5-7B-Instruct-Abliterated-v3)**
+
+This model has:
+- Refusal behaviors removed through orthogonalization
+- Full `.safetensors` weights available for download
+- Maintained reasoning and instruction-following capabilities
+
+### Setup Instructions
+
+1. Visit the [Hugging Face repository](https://huggingface.co/failspy/Qwen2.5-7B-Instruct-Abliterated-v3)
+2. Verify `.safetensors` files are present in the "Files and versions" tab
+3. Update your training script to point to this `model_id`:
+
+```python
+model_id = "failspy/Qwen2.5-7B-Instruct-Abliterated-v3"
+```
+
+The model will be automatically downloaded when you run the training script, or you can pre-download it using:
+
+```bash
+huggingface-cli download failspy/Qwen2.5-7B-Instruct-Abliterated-v3
+```
+
+---
+
 ## 📂 Project Structure
 
 - `calibrate_kindred_spirit.py` - Interactive calibration tool presenting 74 ethical dilemmas
