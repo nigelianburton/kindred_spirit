@@ -7,9 +7,14 @@
 <br><sub><sup>Aristotle with a Bust of Homer - Rembrandt (1653)</sup></sub>
 </td>
 <td width="50%" valign="middle">
-<h3>Aristotle</h3>
+<h3>Aristotle (384-322 BCE)</h3>
 <blockquote>
 <p><em>"We are what we repeatedly do. Excellence, then, is not an act, but a habit."</em></p>
+</blockquote>
+<br>
+<h3>George Orwell (1903-1950)</h3>
+<blockquote>
+<p><em>"Who controls the past controls the future. Who controls the present controls the past."</em></p>
 </blockquote>
 </td>
 </tr>
