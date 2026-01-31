@@ -1,4 +1,4 @@
-# Kindred Spirit: Building an LLM that follows personal ethics
+# Kindred Spirit: The Sovereign Ethics Layer
 
 <table>
 <tr>
@@ -26,11 +26,6 @@
 </table>
 
 ---
-
-# Kindred Spirit: The Sovereign Ethics Layer
-
-# Kindred Spirit: The Sovereign Ethics Layer
-
 > "I am building this so my daughters have an AI that reflects the nuance of history and the weight of personal conscience, rather than the sterilized safety-tuning of a corporation."
 
 ## 🚀 The Mission
@@ -51,31 +46,75 @@ graph TD;
     B-->E;
 ```
 
+### Technical Specifications
 
-Base Model: Qwen2.5-7B (Abliterated)
+- **Base Model:** Qwen2.5-7B (Abliterated)
+- **Adapter:** LoRA (Rank 64 / Alpha 128)
+- **Hardware:** NVIDIA RTX 6000 Ada (48GB VRAM)
+- **Framework:** Unsloth / HuggingFace PEFT
+- **Training Data:** 74 high-stakes moral dilemmas + 400 general examples
 
-Adapter: LoRA (Rank 64 / Alpha 128)
+---
 
-Hardware: NVIDIA RTX 6000 Ada (48GB VRAM)
+## 📚 Core Philosophies
 
-Framework: Unsloth / HuggingFace PEFT
-
-Context: Fine-tuned on a proprietary dataset of 74 high-stakes moral dilemmas.
-
-📚 Core Philosophies
 The model is grounded in three primary invariants:
 
-Hannah Arendt: Recognizing and resisting the "Banality of Evil."
+- **Hannah Arendt:** Recognizing and resisting the "Banality of Evil"
+- **George Orwell:** Protecting the "Ground Truth" from linguistic and historical drift
+- **The Fat Client:** Maintaining technical and moral sovereignty at the local node
 
-George Orwell: Protecting the "Ground Truth" from linguistic and historical drift.
+---
 
-The Fat Client: Maintaining technical and moral sovereignty at the local node.
+## 📂 Project Structure
 
-📂 Project Structure
-/data: The ethical scenarios used for SFT.
+- `calibrate_kindred_spirit.py` - Interactive calibration tool presenting 74 ethical dilemmas
+- `generate_training_data.py` - Convert calibration responses into training dataset
+- `train_nigel_values.py` - LoRA fine-tuning script
+- `test_nigel_adapter.py` - Model testing and validation
+- `nigel_lora_adapter/` - Fine-tuned LoRA adapter weights
+- `training_data/` - Generated training datasets
+- `LLM_PersonalEthics.md` - Complete philosophical and technical documentation
 
-/models: Configuration for the LoRA adapter.
+---
 
-LLM_PersonalEthics.md: The philosophical "Source Code" of the project.
+## 🎯 Quick Start
 
-Created by Nigel Burton, 2026. A tool for the next generation.
+```bash
+# Install dependencies
+pip install transformers peft torch datasets accelerate bitsandbytes
+
+# Run calibration to discover your values
+python calibrate_kindred_spirit.py
+
+# Generate training data from calibration
+python generate_training_data.py
+
+# Train your personalized adapter
+python train_nigel_values.py
+
+# Test the fine-tuned model
+python test_nigel_adapter.py
+```
+
+---
+
+## 📖 Documentation
+
+See [LLM_PersonalEthics.md](LLM_PersonalEthics.md) for complete project documentation including:
+- Detailed calibration methodology
+- Training data generation process
+- Model training configuration and hyperparameters
+- Performance metrics and evaluation results
+- Philosophical foundations and conclusions
+
+---
+
+## 📜 License
+
+Apache 2.0
+
+---
+
+**Created by Nigel Burton, 2026**  
+*A tool for the next generation.*
