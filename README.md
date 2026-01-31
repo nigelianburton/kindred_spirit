@@ -44,11 +44,11 @@ Kindred Spirit uses a **LoRA (Low-Rank Adaptation)** approach to "overlay" a per
 
 ```mermaid
 graph TD
-    A[Global Information] --> B{Centralized LLM}
+    A[Global Information] --> B[Centralized LLM]
     B --> C[Standard User]
     D[Neutral Base Model] --> E[Nigel Ethics LoRA]
     E --> F[The Family]
-    B -.-> E
+    B --> E
 
 
 Base Model: Qwen2.5-7B (Abliterated)
