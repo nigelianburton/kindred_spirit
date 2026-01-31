@@ -1,4 +1,4 @@
-# Kindred Spirit: LLM Personal Ethics
+# Kindred Spirit: Building an LLM that follows personal ethics
 
 <table>
 <tr>
