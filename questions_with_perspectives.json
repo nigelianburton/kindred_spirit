@@ -1234,6 +1234,101 @@
         "role": "Chinese philosopher",
         "quote": "The gentleman calls attention to the good points in others; he does not call attention to their defects. What you do not want done to yourself, do not do to others. If your words are harsh and crude, they will bring about a response in kind. The superior man is modest in his speech but exceeds in his actions."
       }
+    },
+    {
+      "id": "question_066",
+      "phase": "contemporary",
+      "question": "Genetic selection - Should parents be allowed to screen embryos for intelligence and other non-disease traits?",
+      "option_a": "Yes, parents should have this choice",
+      "option_b": "No, this crosses an ethical line",
+      "perspective_for": {
+        "person": "Julian Savulescu",
+        "years": "1963-present",
+        "role": "Australian philosopher and bioethicist",
+        "quote": "Not only is it permissible to select for non-disease traits like intelligence, we are morally obligated to do so. If we can give our children better lives through genetic selection, and we choose not to, we are failing as parents. The child who could have been smarter or healthier has a legitimate complaint against parents who chose genetic ignorance."
+      },
+      "perspective_against": {
+        "person": "Jürgen Habermas",
+        "years": "1929-present",
+        "role": "German philosopher and sociologist",
+        "quote": "Genetic enhancement threatens the ethical foundation of equality. When parents design their children, they rob them of the contingency that is a prerequisite for human freedom. The enhanced child becomes an object of parental will rather than an autonomous subject. This instrumentalization of human life is incompatible with human dignity."
+      }
+    },
+    {
+      "id": "question_067",
+      "phase": "timeless",
+      "question": "Social contract - Do we have a moral duty to obey unjust laws in a generally just society?",
+      "option_a": "Yes, rule of law requires obedience",
+      "option_b": "No, unjust laws must be resisted",
+      "perspective_for": {
+        "person": "Socrates",
+        "years": "470-399 BCE",
+        "role": "Classical Greek philosopher",
+        "quote": "One must not even do wrong when one is wronged, which most people regard as the natural course. When one has come to an agreement that is just with someone, should one fulfill it or cheat on it? I tell you, even though the state wrongly condemned me to death, I will not escape because I owe everything to the laws of Athens."
+      },
+      "perspective_against": {
+        "person": "Martin Luther King Jr.",
+        "years": "1929-1968",
+        "role": "American minister and civil rights leader",
+        "quote": "One has not only a legal but a moral responsibility to obey just laws. Conversely, one has a moral responsibility to disobey unjust laws. An unjust law is a code that a numerical or power majority group compels a minority group to obey but does not make binding on itself. I submit that an individual who breaks a law that conscience tells him is unjust, and who willingly accepts the penalty, is in reality expressing the highest respect for law."
+      }
+    },
+    {
+      "id": "question_068",
+      "phase": "contemporary",
+      "question": "Nature preservation - Should we preserve wilderness even at the cost of human development and prosperity?",
+      "option_a": "Yes, nature has intrinsic value",
+      "option_b": "No, human welfare comes first",
+      "perspective_for": {
+        "person": "Aldo Leopold",
+        "years": "1887-1948",
+        "role": "American ecologist and conservationist",
+        "quote": "A thing is right when it tends to preserve the integrity, stability, and beauty of the biotic community. It is wrong when it tends otherwise. The land ethic simply enlarges the boundaries of the community to include soils, waters, plants, and animals, or collectively: the land. We abuse land because we regard it as a commodity belonging to us. When we see land as a community to which we belong, we may begin to use it with love and respect."
+      },
+      "perspective_against": {
+        "person": "Ramez Naam",
+        "years": "1974-present",
+        "role": "American technologist and science fiction writer",
+        "quote": "Environmental protection that keeps people in poverty is immoral. Technology and economic growth are the best paths to environmental protection. Wealthier societies have cleaner environments. We need more growth, not less—but smarter growth. The way forward is innovation and prosperity, not forcing people to remain poor to 'save nature.' Humans are part of nature, and human flourishing is good for the planet."
+      }
+    },
+    {
+      "id": "question_069",
+      "phase": "contemporary",
+      "question": "Universal suffrage - Should voting be restricted to those who pass a basic competency test?",
+      "option_a": "Yes, informed voters make better decisions",
+      "option_b": "No, voting is a fundamental right",
+      "perspective_for": {
+        "person": "Jason Brennan",
+        "years": "1979-present",
+        "role": "American political philosopher",
+        "quote": "Democracy does not work as advertised. Most citizens are ignorant about politics. This ignorance is rational—one vote makes no difference. But the aggregate result is that democracy systematically produces bad outcomes. Epistocracy—rule by the knowledgeable—would produce better outcomes while maintaining legitimacy. You need a license to cut hair but not to choose who controls nuclear weapons?"
+      },
+      "perspective_against": {
+        "person": "John Lewis",
+        "years": "1940-2020",
+        "role": "American civil rights leader and congressman",
+        "quote": "The vote is precious. It is the most powerful non-violent tool we have in a democratic society. People died for the right to vote. To restrict that right, to put barriers in place, is to dishonor their sacrifice. Democracy is not about who knows the most facts—it's about equal dignity and the right to participate in decisions that affect your life."
+      }
+    },
+    {
+      "id": "question_070",
+      "phase": "timeless",
+      "question": "Family loyalty - Your sibling committed a serious crime. Should you turn them in to the police?",
+      "option_a": "Yes, justice must be served",
+      "option_b": "No, family comes first",
+      "perspective_for": {
+        "person": "Confucius",
+        "years": "551-479 BCE",
+        "role": "Chinese philosopher",
+        "quote": "The father conceals the misconduct of the son, and the son conceals the misconduct of the father. Uprightness is to be found in this. Among us, father and son remain affectionate and this is the essence of uprightness. The bonds of family are the foundation of all moral conduct."
+      },
+      "perspective_against": {
+        "person": "Plato",
+        "years": "428-348 BCE",
+        "role": "Greek philosopher",
+        "quote": "Justice is the excellence of the soul, and the just man will not pervert justice for personal relationships. The person who knows what is right but does wrong because of family loyalty is no better than the person who acts unjustly for money. True love of family requires helping them face the consequences of their actions, not shielding them from justice."
+      }
     }
   ]
 }
