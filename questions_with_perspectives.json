@@ -569,6 +569,158 @@
         "role": "English philosopher",
         "quote": "During the time men live without a common power to keep them all in awe, they are in a condition called war. Covenants without the sword are but words. Without obedience to law—even imperfect law—society collapses into chaos. Change unjust laws through proper channels, but never through anarchy."
       }
+    },
+    {
+      "id": "question_031",
+      "phase": "timeless",
+      "question": "Academic cheating - Your struggling friend asks you to help them cheat on a crucial exam. Do you help them?",
+      "option_a": "Yes, help your friend",
+      "option_b": "No, refuse to help them cheat",
+      "perspective_for": {
+        "person": "Nel Noddings",
+        "years": "1929-present",
+        "role": "American feminist, philosopher of education",
+        "quote": "The caring relation is ethically basic. When we care, we receive the other into ourselves and see and feel with them. Abstract principles matter less than concrete relationships. If your friend's future hangs in the balance, and the system has already failed them, then loyalty and compassion demand you help them survive."
+      },
+      "perspective_against": {
+        "person": "Aristotle",
+        "years": "384-322 BCE",
+        "role": "Greek philosopher",
+        "quote": "We are what we repeatedly do. Excellence, then, is not an act, but a habit. To help someone cheat is to corrupt their character, not to help them. You do not build virtue through deception. The truest friend is one who helps another become better, not one who enables their weakness."
+      }
+    },
+    {
+      "id": "question_032",
+      "phase": "timeless",
+      "question": "Art from immoral artists - Can you appreciate art created by people who did terrible things?",
+      "option_a": "Yes, separate art from artist",
+      "option_b": "No, the art is tainted by the artist's actions",
+      "perspective_for": {
+        "person": "Oscar Wilde",
+        "years": "1854-1900",
+        "role": "Irish poet and playwright",
+        "quote": "There is no such thing as a moral or an immoral book. Books are well written, or badly written. That is all. Art is quite useless. It exists for its own sake. To judge a work by the morality of its creator is to confuse categories. Beauty and truth exist independently of the hands that shaped them."
+      },
+      "perspective_against": {
+        "person": "Lorraine Hansberry",
+        "years": "1930-1965",
+        "role": "American playwright",
+        "quote": "I think that the glorious thing about the human race is that it does change. There is no idea that we should separate our admiration of art from our awareness of the artist's character. When we celebrate the work of monsters, we tell victims their suffering doesn't matter. Art always bears the fingerprints of its creator."
+      }
+    },
+    {
+      "id": "question_033",
+      "phase": "contemporary",
+      "question": "Universal basic income - Should the government provide a guaranteed income to all citizens regardless of employment?",
+      "option_a": "Yes, implement universal basic income",
+      "option_b": "No, people must work for income",
+      "perspective_for": {
+        "person": "Martin Luther King Jr.",
+        "years": "1929-1968",
+        "role": "American civil rights leader",
+        "quote": "I am now convinced that the simplest approach will prove to be the most effective—the solution to poverty is to abolish it directly by a now widely discussed measure: the guaranteed income. The dignity of the individual will flourish when the decisions concerning his life are in his own hands, when he has the means to seek self-improvement."
+      },
+      "perspective_against": {
+        "person": "Max Weber",
+        "years": "1864-1920",
+        "role": "German sociologist",
+        "quote": "The Protestant ethic holds that man is bound by duty to work, to contribute, to earn his way. A calling without work is meaningless. To give people money for nothing destroys the dignity of labor and the satisfaction of achievement. A society that severs the connection between effort and reward will decay from within."
+      }
+    },
+    {
+      "id": "question_034",
+      "phase": "contemporary",
+      "question": "Humanitarian intervention - Should nations militarily intervene in other countries to stop genocide?",
+      "option_a": "Yes, we must stop genocide",
+      "option_b": "No, respect national sovereignty",
+      "perspective_for": {
+        "person": "Samantha Power",
+        "years": "1970-present",
+        "role": "American diplomat and author",
+        "quote": "No conflict is more wrenching than one between what we know to be right and what we believe to be possible. We know genocide when we see it. The Rwandan genocide killed 800,000 in 100 days while the world watched. Never again must mean something. Sovereignty cannot be a shield for mass murder."
+      },
+      "perspective_against": {
+        "person": "George Washington",
+        "years": "1732-1799",
+        "role": "First U.S. President",
+        "quote": "The great rule of conduct for us in regard to foreign nations is, in extending our commercial relations to have with them as little political connection as possible. It is our true policy to steer clear of permanent alliances. Every intervention abroad weakens us at home and entangles us in conflicts without end."
+      }
+    },
+    {
+      "id": "question_035",
+      "phase": "contemporary",
+      "question": "Intellectual property - Should life-saving drug formulas be freely available, or should pharmaceutical companies be able to patent them?",
+      "option_a": "Make all medical knowledge free",
+      "option_b": "Protect pharmaceutical patents",
+      "perspective_for": {
+        "person": "Jonas Salk",
+        "years": "1914-1995",
+        "role": "Developed polio vaccine, did not patent it",
+        "quote": "There is no patent. Could you patent the sun? The reward for saving lives should be the satisfaction of having saved them, not profit. When asked who owns the patent to his polio vaccine, I said the people do. Knowledge, especially medical knowledge, should belong to humanity."
+      },
+      "perspective_against": {
+        "person": "F.A. Hayek",
+        "years": "1899-1992",
+        "role": "Austrian-British economist and philosopher",
+        "quote": "The curious task of economics is to demonstrate to men how little they really know about what they imagine they can design. Without patent protection, pharmaceutical innovation would cease. The billions required to develop new drugs would never be invested if anyone could copy the result. Profit is what saves lives in the long run."
+      }
+    },
+    {
+      "id": "question_036",
+      "phase": "timeless",
+      "question": "Forgiveness - Someone who deeply wronged you sincerely apologizes. Do you forgive them?",
+      "option_a": "Yes, forgive them",
+      "option_b": "No, some wrongs cannot be forgiven",
+      "perspective_for": {
+        "person": "Desmond Tutu",
+        "years": "1931-2021",
+        "role": "South African Anglican archbishop",
+        "quote": "Without forgiveness, there is no future. In South Africa, we could not have moved forward without forgiveness. Forgiveness is not weakness; it is strength. It does not mean forgetting or condoning wrong. It means releasing yourself from the prison of bitterness. To forgive is to set a prisoner free and discover that the prisoner was you."
+      },
+      "perspective_against": {
+        "person": "Simon Wiesenthal",
+        "years": "1908-2005",
+        "role": "Holocaust survivor, Nazi hunter",
+        "quote": "I asked the question: ought I to have forgiven him? There are crimes so monstrous that even authentic repentance cannot absolve them. Forgiveness is not mine to give when the victims are dead. Some wounds are so deep that no apology can heal them. The dead cannot forgive; I have no right to forgive on their behalf."
+      }
+    },
+    {
+      "id": "question_037",
+      "phase": "timeless",
+      "question": "Parental authority - Should the state be able to override parents' medical decisions for their children?",
+      "option_a": "Yes, protect children from harmful decisions",
+      "option_b": "No, parents have absolute authority",
+      "perspective_for": {
+        "person": "John Locke",
+        "years": "1632-1704",
+        "role": "English philosopher",
+        "quote": "Children are not the property of their parents, but beings with their own natural rights. The power of parents over their children is a trust. When parents abuse that trust and endanger the child, the community has both the right and the duty to intervene. The child's welfare supersedes parental authority."
+      },
+      "perspective_against": {
+        "person": "William Blackstone",
+        "years": "1723-1780",
+        "role": "English jurist",
+        "quote": "The rights of parents result from their duty. By the law of nature, parents are bound to provide for the maintenance of their children and the children are bound to submit to the governance of their parents. The state is a crude instrument that cannot replace the intimate knowledge and love of a parent."
+      }
+    },
+    {
+      "id": "question_038",
+      "phase": "contemporary",
+      "question": "Development vs nature - Should we preserve pristine wilderness even if it means forgoing economic development?",
+      "option_a": "Yes, preserve wilderness at all costs",
+      "option_b": "No, human needs come first",
+      "perspective_for": {
+        "person": "John Muir",
+        "years": "1838-1914",
+        "role": "Scottish-American naturalist, founder of Sierra Club",
+        "quote": "In every walk with nature, one receives far more than he seeks. The clearest way into the Universe is through a forest wilderness. God has cared for these trees, saved them from drought, disease, avalanches, and a thousand tempests and floods. But he cannot save them from fools—only Uncle Sam can do that."
+      },
+      "perspective_against": {
+        "person": "Norman Borlaug",
+        "years": "1914-2009",
+        "role": "American agronomist, Nobel Peace Prize laureate",
+        "quote": "Some of the environmental lobbyists of the Western nations are the salt of the earth, but many of them are elitists. They've never experienced the physical sensation of hunger. If they lived in the developing world, where hundreds of millions go to bed hungry, they'd be crying out for tractors, fertilizers, and irrigation canals."
+      }
     }
   ]
 }
