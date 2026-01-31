@@ -1139,6 +1139,101 @@
         "role": "English-born American political activist and philosopher",
         "quote": "Every age and generation must be as free to act for itself in all cases as the age and generations which preceded it. The vanity and presumption of governing beyond the grave is the most ridiculous and insolent of all tyrannies. I have no idea of being bound by the customs of our forefathers. What right has the dead to say to the living, 'You must continue our way forever'?"
       }
+    },
+    {
+      "id": "question_061",
+      "phase": "timeless",
+      "question": "Parental authority - Should children have the right to make major life decisions against their parents' wishes?",
+      "option_a": "Yes, children are autonomous individuals",
+      "option_b": "No, parents know what's best",
+      "perspective_for": {
+        "person": "John Holt",
+        "years": "1923-1985",
+        "role": "American educator and advocate for youth rights",
+        "quote": "I believe that young people should have the right to control and direct their own learning, that they have the right to decide what they want to learn, when they want to learn it, how they want to learn it, and where. The notion that adults always know what is good for children is a convenient fiction. Children are people and they should have the rights that all people should have."
+      },
+      "perspective_against": {
+        "person": "Amy Chua",
+        "years": "1962-present",
+        "role": "American lawyer and writer",
+        "quote": "Western parents are extremely anxious about their children's self-esteem. But as a parent, one of the worst things you can do for your child's self-esteem is to let them give up. Children on their own never want to work. That's why it's crucial to override their preferences. I'm not saying be a tyrant, but parents need to guide their children, and sometimes that means being tough."
+      }
+    },
+    {
+      "id": "question_062",
+      "phase": "timeless",
+      "question": "Pacifism - Is violence ever morally justified, even in self-defense?",
+      "option_a": "No, non-violence is absolute",
+      "option_b": "Yes, violence can be righteous",
+      "perspective_for": {
+        "person": "Leo Tolstoy",
+        "years": "1828-1910",
+        "role": "Russian writer and philosopher",
+        "quote": "The truth is that the State is a conspiracy designed not only to exploit, but above all to corrupt its citizens. Henceforth, I shall never serve any government anywhere. All violence is evil, even when directed against evil. To resist evil by violence is to be guilty of the very evil we are resisting. Non-resistance to evil by violence is the only way to break the cycle of violence."
+      },
+      "perspective_against": {
+        "person": "Reinhold Niebuhr",
+        "years": "1892-1971",
+        "role": "American theologian",
+        "quote": "The pacifist's refusal to participate in violence is a luxury that depends on others being willing to defend them. The sad duty of politics is to establish justice in a sinful world. To refuse to use force to prevent evil is itself evil. While we should always prefer non-violence, there are circumstances where the responsible use of force is not only justified but required."
+      }
+    },
+    {
+      "id": "question_063",
+      "phase": "contemporary",
+      "question": "Meritocracy - Should opportunities be distributed based purely on ability and effort?",
+      "option_a": "Yes, merit is the only fair standard",
+      "option_b": "No, this ignores unequal starting points",
+      "perspective_for": {
+        "person": "Jordan Peterson",
+        "years": "1962-present",
+        "role": "Canadian psychologist",
+        "quote": "Hierarchies of competence are not only necessary but desirable. They are the most efficient way to organize society. When you distribute resources based on competence, everyone benefits—including those at the bottom. The alternative to meritocracy is not fairness, but corruption and nepotism. The competent should rise, or we all suffer."
+      },
+      "perspective_against": {
+        "person": "Michael Sandel",
+        "years": "1953-present",
+        "role": "American political philosopher",
+        "quote": "The meritocratic ideal is not a remedy for inequality but a justification of it. It congratulates the winners but denigrates the losers, saying they deserve their fate. This is deeply corrosive of the civic bonds that democracy needs. Even if we could make opportunity equal, it would be wrong to equate human dignity with where people land in the meritocratic race."
+      }
+    },
+    {
+      "id": "question_064",
+      "phase": "contemporary",
+      "question": "Transhumanism - Should we embrace technologies that fundamentally alter what it means to be human?",
+      "option_a": "Yes, enhancement is the next stage of evolution",
+      "option_b": "No, there's wisdom in human limits",
+      "perspective_for": {
+        "person": "Ray Kurzweil",
+        "years": "1948-present",
+        "role": "American inventor and futurist",
+        "quote": "Evolution moves toward greater complexity, greater elegance, greater knowledge, greater intelligence, greater beauty, greater creativity, and greater levels of subtle attributes such as love. We will merge with our technology and become something new. This is not the end of humanity but its transcendence. The human species can and will expand far beyond our current limitations."
+      },
+      "perspective_against": {
+        "person": "Leon Kass",
+        "years": "1939-present",
+        "role": "American physician and bioethicist",
+        "quote": "To turn a man into a cockroach is dehumanization. To turn a man into a more efficient or enhanced version of himself is equally a form of dehumanization. What makes us human is not just our abilities, but our vulnerabilities, our mortality, our natural limits. The project to transcend the human condition is based on a false understanding of what it means to flourish as a human being."
+      }
+    },
+    {
+      "id": "question_065",
+      "phase": "timeless",
+      "question": "Brutal honesty - Your friend asks if they look good, but they don't. Should you tell the truth?",
+      "option_a": "Yes, honesty is always better",
+      "option_b": "No, kindness matters more than truth",
+      "perspective_for": {
+        "person": "Ayn Rand",
+        "years": "1905-1982",
+        "role": "Russian-American philosopher and novelist",
+        "quote": "Honesty is the recognition of the fact that the unreal is unreal and can have no value. To fake reality is to fake one's own consciousness, thus destroying one's capacity to perceive reality. Truth is the recognition of reality; reason, man's only means of knowledge, is his only standard of truth. To lie is to sabotage one's own consciousness."
+      },
+      "perspective_against": {
+        "person": "Confucius",
+        "years": "551-479 BCE",
+        "role": "Chinese philosopher",
+        "quote": "The gentleman calls attention to the good points in others; he does not call attention to their defects. What you do not want done to yourself, do not do to others. If your words are harsh and crude, they will bring about a response in kind. The superior man is modest in his speech but exceeds in his actions."
+      }
     }
   ]
 }
