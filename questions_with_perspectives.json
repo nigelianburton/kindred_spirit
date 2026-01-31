@@ -721,6 +721,139 @@
         "role": "American agronomist, Nobel Peace Prize laureate",
         "quote": "Some of the environmental lobbyists of the Western nations are the salt of the earth, but many of them are elitists. They've never experienced the physical sensation of hunger. If they lived in the developing world, where hundreds of millions go to bed hungry, they'd be crying out for tractors, fertilizers, and irrigation canals."
       }
+    },
+    {
+      "id": "question_039",
+      "phase": "contemporary",
+      "question": "Sex work - Should prostitution be legalized and regulated?",
+      "option_a": "Yes, legalize and regulate sex work",
+      "option_b": "No, prostitution should remain illegal",
+      "perspective_for": {
+        "person": "Margo St. James",
+        "years": "1937-2021",
+        "role": "American sex worker rights activist",
+        "quote": "We're trying to get out from under this stigma, this social stigma that makes us criminals. Criminalization makes sex workers vulnerable to violence, disease, and exploitation. Legalization with regulation protects workers, reduces trafficking, and treats adults as capable of making their own choices. My body, my choice extends to all consensual work."
+      },
+      "perspective_against": {
+        "person": "Catharine MacKinnon",
+        "years": "1946-present",
+        "role": "American feminist legal scholar",
+        "quote": "Prostitution is not sex; it is the use of a woman's body for sex by a man, he pays money, he does what he wants. The minute you move away from that, you're talking about prostitution as if it's something other than what it really is. Legalizing it legitimizes the commodification of women's bodies and normalizes sexual exploitation."
+      }
+    },
+    {
+      "id": "question_040",
+      "phase": "contemporary",
+      "question": "Military draft - Should all citizens be required to serve in the military for a period?",
+      "option_a": "Yes, mandatory service for all",
+      "option_b": "No, military service should be voluntary",
+      "perspective_for": {
+        "person": "Niccolò Machiavelli",
+        "years": "1469-1527",
+        "role": "Italian diplomat and political philosopher",
+        "quote": "Where the willingness is great, the difficulties cannot be great. A state that relies on mercenaries will never be stable or secure. Every citizen should be trained in arms and ready to defend the republic. Mandatory service creates civic virtue, unites classes, and ensures citizens have skin in the game when voting for war."
+      },
+      "perspective_against": {
+        "person": "Ron Paul",
+        "years": "1935-present",
+        "role": "American physician and politician",
+        "quote": "Conscription is slavery. To force someone to fight and potentially die in a war they don't believe in is the ultimate violation of individual liberty. A volunteer military is more professional, more ethical, and more in keeping with free society values. The draft turns citizens into property of the state."
+      }
+    },
+    {
+      "id": "question_041",
+      "phase": "timeless",
+      "question": "Revenge - Someone murdered your loved one but will never face justice. Do you seek revenge?",
+      "option_a": "Yes, revenge is justified",
+      "option_b": "No, revenge is never right",
+      "perspective_for": {
+        "person": "Clint Eastwood (Unforgiven character)",
+        "years": "1930-present",
+        "role": "American filmmaker",
+        "quote": "We all have it coming. When the system fails to deliver justice, when killers walk free, someone must balance the scales. It's not pretty, it's not noble, but it's human. The law is supposed to protect us, but when it doesn't, we fall back on something older, something primal. An eye for an eye existed before courts did."
+      },
+      "perspective_against": {
+        "person": "Mahatma Gandhi",
+        "years": "1869-1948",
+        "role": "Indian independence leader",
+        "quote": "An eye for an eye will only make the whole world blind. Forgiveness is the attribute of the strong. Revenge may satisfy rage momentarily, but it perpetuates the cycle of violence. The murdered cannot be brought back. Revenge does not honor them—it dishonors their memory by creating more victims."
+      }
+    },
+    {
+      "id": "question_042",
+      "phase": "personal_existential",
+      "question": "Religious upbringing - Is it ethical to raise children in a specific religion before they can choose for themselves?",
+      "option_a": "Yes, parents should pass on their faith",
+      "option_b": "No, let children choose when they're older",
+      "perspective_for": {
+        "person": "G.K. Chesterton",
+        "years": "1874-1936",
+        "role": "English writer and Christian apologist",
+        "quote": "The real trouble with this world is not that it is an unreasonable world, nor that it is a reasonable one. The commonest kind of trouble is that it is nearly reasonable, but not quite. To tell a child 'decide for yourself when you're older' is to raise them in the religion of relativism. Every parent teaches values. Faith is no different."
+      },
+      "perspective_against": {
+        "person": "Richard Dawkins",
+        "years": "1941-present",
+        "role": "British evolutionary biologist",
+        "quote": "There is no such thing as a Christian child, only a child of Christian parents. It's as absurd as talking about a Keynesian child or a Marxist child. To label children with their parents' religion before they're old enough to understand what it means is a form of mental child abuse. Let them choose when they have reasoning capacity."
+      }
+    },
+    {
+      "id": "question_043",
+      "phase": "timeless",
+      "question": "Preemptive self-defense - You have credible evidence someone plans to kill you. Can you kill them first?",
+      "option_a": "Yes, preemptive self-defense is justified",
+      "option_b": "No, you must wait until attacked",
+      "perspective_for": {
+        "person": "Sun Tzu",
+        "years": "544-496 BCE (traditional)",
+        "role": "Chinese military strategist",
+        "quote": "He who knows when he can fight and when he cannot will be victorious. The supreme art of war is to subdue the enemy without fighting. But when you know death approaches, waiting for the blow is foolishness. Strike first. The moral high ground is worthless to a corpse. Prevention is the highest form of defense."
+      },
+      "perspective_against": {
+        "person": "Reinhold Niebuhr",
+        "years": "1892-1971",
+        "role": "American theologian",
+        "quote": "Man's capacity for justice makes democracy possible, but man's inclination to injustice makes democracy necessary. To kill based on mere suspicion, however credible, is to become executioner without trial. The moment we act on what might happen rather than what has happened, we abandon the rule of law for the law of the jungle."
+      }
+    },
+    {
+      "id": "question_044",
+      "phase": "contemporary",
+      "question": "Open borders - Should wealthy nations accept unlimited immigrants from poor countries?",
+      "option_a": "Yes, borders are morally arbitrary",
+      "option_b": "No, nations must control immigration",
+      "perspective_for": {
+        "person": "Peter Singer",
+        "years": "1946-present",
+        "role": "Australian moral philosopher",
+        "quote": "From the perspective of the universe, your being born in a wealthy country rather than a poor one is pure luck—morally arbitrary. National borders are lines on a map that have no ethical significance. If we can dramatically improve someone's life by letting them in, and the cost to us is minimal, we are morally obligated to do so."
+      },
+      "perspective_against": {
+        "person": "David Miller",
+        "years": "1946-present",
+        "role": "British political philosopher",
+        "quote": "Nations are not just arbitrary collections of people. They are communities with shared histories, institutions, and obligations to one another. We have special duties to our fellow citizens that we don't have to strangers. Unlimited immigration would destroy the social solidarity that makes welfare states and democracy possible."
+      }
+    },
+    {
+      "id": "question_045",
+      "phase": "timeless",
+      "question": "Jury nullification - As a juror, should you vote 'not guilty' if you think the law itself is unjust, even if the defendant clearly broke it?",
+      "option_a": "Yes, nullify unjust laws",
+      "option_b": "No, follow the law as written",
+      "perspective_for": {
+        "person": "Lysander Spooner",
+        "years": "1808-1887",
+        "role": "American abolitionist and legal theorist",
+        "quote": "If the jury have no right to judge of the justice of a law, they plainly can do nothing to protect the people against the tyranny of government. Juries are the palladium of liberty, the last line of defense against oppressive laws. When the law is unjust, the jury must acquit. This is not lawlessness—it is the highest form of law."
+      },
+      "perspective_against": {
+        "person": "Oliver Wendell Holmes Jr.",
+        "years": "1841-1935",
+        "role": "U.S. Supreme Court Justice",
+        "quote": "If the people want to go to hell, I will help them. It's my job. The jury's role is to determine facts, not to make law. If we allow juries to disregard laws they personally dislike, we replace the rule of law with the rule of twelve random citizens. That's mob justice, not justice at all."
+      }
     }
   ]
 }
