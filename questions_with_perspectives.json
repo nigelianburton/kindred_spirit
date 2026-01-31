@@ -322,6 +322,158 @@
         "role": "American economist, Nobel laureate",
         "quote": "A society that puts equality before freedom will get neither. A society that puts freedom before equality will get a high degree of both. Government healthcare creates inefficiency, rationing, and reduces the incentive for innovation. The free market, with all its imperfections, produces better outcomes than bureaucracy ever could."
       }
+    },
+    {
+      "id": "question_018",
+      "phase": "contemporary",
+      "question": "Privacy vs security - Should the government be able to monitor private communications to prevent terrorism?",
+      "option_a": "Yes, security justifies surveillance",
+      "option_b": "No, privacy is more important",
+      "perspective_for": {
+        "person": "Dick Cheney",
+        "years": "1941-present",
+        "role": "Former U.S. Vice President",
+        "quote": "If you're going to deal only with sort of officially approved, certified good guys, you're not going to find out what the bad guys are doing. The enemy has no compunction about taking innocent lives. Our first duty is to protect American citizens. Privacy concerns must sometimes yield to security imperatives."
+      },
+      "perspective_against": {
+        "person": "Benjamin Franklin",
+        "years": "1706-1790",
+        "role": "American Founding Father",
+        "quote": "Those who would give up essential Liberty, to purchase a little temporary Safety, deserve neither Liberty nor Safety. A government powerful enough to protect you from all harm is powerful enough to control every aspect of your life. Security without liberty is merely slavery by another name."
+      }
+    },
+    {
+      "id": "question_019",
+      "phase": "contemporary",
+      "question": "Reparations - Should descendants of enslaved people receive financial compensation from the government?",
+      "option_a": "Yes, reparations are owed for slavery",
+      "option_b": "No, present generations shouldn't pay for the past",
+      "perspective_for": {
+        "person": "Ta-Nehisi Coates",
+        "years": "1975-present",
+        "role": "American journalist and author",
+        "quote": "The wealth gap between blacks and whites is not the result of black pathology or white effort, but the result of specific policies meant to rob one group to benefit another. Reparations would represent a national reckoning—an acceptance that we are responsible not just for our own actions, but for the society we inherit."
+      },
+      "perspective_against": {
+        "person": "Shelby Steele",
+        "years": "1946-present",
+        "role": "American author and documentary filmmaker",
+        "quote": "Reparations would mark blacks as eternally inferior, people who could never be expected to compete with others. How do you give cash reparations to individuals for historical wrongs done to their ancestors? Who qualifies? This perpetuates victimhood. What we need is not reparation for the past, but opportunity in the present."
+      }
+    },
+    {
+      "id": "question_020",
+      "phase": "timeless",
+      "question": "Animal testing - Is it ethical to test medicines on animals if it could save human lives?",
+      "option_a": "Yes, human lives take priority",
+      "option_b": "No, animals have rights too",
+      "perspective_for": {
+        "person": "Louis Pasteur",
+        "years": "1822-1895",
+        "role": "French chemist and microbiologist",
+        "quote": "Did you ever observe to whom the accidents happen? Chance favors only the prepared mind. Without animal experimentation, vaccines and treatments would be impossible. Every child saved from disease, every cancer patient given more time—this is made possible through necessary sacrifice. Human welfare must come first."
+      },
+      "perspective_against": {
+        "person": "Peter Singer",
+        "years": "1946-present",
+        "role": "Australian moral philosopher",
+        "quote": "All the arguments to prove human superiority cannot shatter this hard fact: in suffering, the animals are our equals. The capacity to suffer is the vital characteristic that gives a being the right to equal consideration. We cannot justify experimenting on animals unless we would also be willing to experiment on human infants at a similar mental level."
+      }
+    },
+    {
+      "id": "question_021",
+      "phase": "timeless",
+      "question": "Genetic enhancement - If technology allowed, should parents be able to genetically enhance their children (higher IQ, strength, etc.)?",
+      "option_a": "Yes, parents should improve their children",
+      "option_b": "No, this is playing God",
+      "perspective_for": {
+        "person": "Julian Huxley",
+        "years": "1887-1975",
+        "role": "English evolutionary biologist",
+        "quote": "Man is the only organism capable of directing his own evolution. Why should we not use our knowledge to eliminate disease, enhance intelligence, extend life? To reject this is to reject progress itself. We have a moral obligation to use science to reduce suffering and increase human potential."
+      },
+      "perspective_against": {
+        "person": "C.S. Lewis",
+        "years": "1898-1963",
+        "role": "British writer and theologian",
+        "quote": "What we call Man's power over Nature turns out to be a power exercised by some men over other men with Nature as its instrument. Each new power won by man is a power over man as well. The final stage is when Man, by eugenics and scientific manipulation, has obtained full control over himself. Then man will have abolished himself."
+      }
+    },
+    {
+      "id": "question_022",
+      "phase": "timeless",
+      "question": "AI rights - If artificial intelligence becomes truly conscious, should it have rights similar to humans?",
+      "option_a": "Yes, conscious beings deserve rights",
+      "option_b": "No, only biological humans have rights",
+      "perspective_for": {
+        "person": "Alan Turing",
+        "years": "1912-1954",
+        "role": "British mathematician, computer science pioneer",
+        "quote": "I propose to consider the question, 'Can machines think?' If a machine can convince us it is conscious, on what grounds do we deny its consciousness? The question is not whether machines can think like us, but whether they can think at all. If they suffer, if they have preferences, if they are aware—then they have moral standing."
+      },
+      "perspective_against": {
+        "person": "Hubert Dreyfus",
+        "years": "1929-2017",
+        "role": "American philosopher",
+        "quote": "Intelligence requires a body. Consciousness requires not just information processing but embodied existence in the world. Computers manipulate symbols; humans understand meaning. To grant rights to programs would be a category error—mistaking sophisticated simulation for genuine being. Only creatures with biological needs have moral claims."
+      }
+    },
+    {
+      "id": "question_023",
+      "phase": "timeless",
+      "question": "Stealing for survival - Your family is starving and you have no money. Is it ethical to steal food?",
+      "option_a": "Yes, survival justifies theft",
+      "option_b": "No, stealing is always wrong",
+      "perspective_for": {
+        "person": "Jean Valjean (Victor Hugo)",
+        "years": "1802-1885 (Hugo)",
+        "role": "Literary character/French novelist",
+        "quote": "When the law places a man in a situation where he must choose between his child's life and society's rules, the law itself is unjust. Property rights cannot supersede the right to life. No society can call itself moral if it criminalizes a father's desperate attempt to feed his starving children."
+      },
+      "perspective_against": {
+        "person": "Mencius",
+        "years": "372-289 BCE",
+        "role": "Chinese Confucian philosopher",
+        "quote": "The path of duty lies in what is near, but men seek for it in what is remote. Even in dire circumstances, one must not violate the Way. To steal, even to feed one's family, is to corrupt one's character and set a precedent that undermines social harmony. Better to beg, to labor, to seek charity—preserve righteousness even in poverty."
+      }
+    },
+    {
+      "id": "question_024",
+      "phase": "contemporary",
+      "question": "Mandatory vaccination - Should vaccines be mandatory for children to attend public school?",
+      "option_a": "Yes, public health requires vaccination",
+      "option_b": "No, parents should decide",
+      "perspective_for": {
+        "person": "Jonas Salk",
+        "years": "1914-1995",
+        "role": "American virologist, developed polio vaccine",
+        "quote": "The reward for work well done is the opportunity to do more. Vaccination is not just about individual choice—it's about collective immunity. When you refuse to vaccinate your child, you endanger mine. Children have a right to be protected from preventable disease, even if their parents don't understand the science."
+      },
+      "perspective_against": {
+        "person": "John Stuart Mill",
+        "years": "1806-1873",
+        "role": "British philosopher",
+        "quote": "Over himself, over his own body and mind, the individual is sovereign. The only purpose for which power can be rightfully exercised over any member of a civilized community, against his will, is to prevent harm to others. Parents, not the state, must decide what medical interventions their children receive. Liberty includes the right to be wrong."
+      }
+    },
+    {
+      "id": "question_025",
+      "phase": "contemporary",
+      "question": "Drug legalization - Should all drugs be legalized and regulated rather than criminalized?",
+      "option_a": "Yes, legalize and regulate all drugs",
+      "option_b": "No, keep drugs illegal",
+      "perspective_for": {
+        "person": "Carl Hart",
+        "years": "1966-present",
+        "role": "American neuroscientist and psychologist",
+        "quote": "The war on drugs has been a war on people, particularly poor people and people of color. Criminalizing drug use doesn't reduce harm—it increases it. Portugal decriminalized all drugs and saw dramatic decreases in overdoses and HIV. Adult citizens should have autonomy over their own consciousness."
+      },
+      "perspective_against": {
+        "person": "William Bennett",
+        "years": "1943-present",
+        "role": "Former U.S. Drug Czar",
+        "quote": "Drugs are wrong because they enslave the mind and destroy the soul. Legalization would be a social catastrophe—more addiction, more broken families, more crime. We don't surrender to vice; we fight it. A society that legalizes self-destruction has given up on its citizens. We must protect people from their worst impulses."
+      }
     }
   ]
 }
