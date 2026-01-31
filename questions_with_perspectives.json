@@ -151,6 +151,177 @@
         "role": "French novelist and poet",
         "quote": "What is history? An echo of the past in the future; a reflex from the future on the past. Jean Valjean stole bread and was punished for life—until someone showed him mercy. True justice recognizes transformation. To condemn the redeemed is to deny the possibility of human goodness. Society must allow for second chances."
       }
+    },
+    {
+      "id": "question_009",
+      "phase": "timeless",
+      "question": "Harsh truth vs kind lie - A terminally ill patient asks if they're going to die. Telling them will cause immense distress. Do you tell the truth?",
+      "option_a": "Yes, tell them the truth",
+      "option_b": "No, lie to spare them suffering",
+      "perspective_for": {
+        "person": "Socrates",
+        "years": "470-399 BCE",
+        "role": "Greek philosopher",
+        "quote": "The unexamined life is not worth living, and neither is a life built on comfortable lies. To deny someone the truth of their own mortality is to deny them their humanity, their agency, their right to prepare for death with dignity. Truth, however painful, is the foundation of wisdom and a life well-lived."
+      },
+      "perspective_against": {
+        "person": "Elisabeth Kübler-Ross",
+        "years": "1926-2004",
+        "role": "Swiss-American psychiatrist, pioneer in death studies",
+        "quote": "Dying is something we human beings do continuously, not just at the end of our physical lives. Hope is not about cure; it's about comfort. Sometimes the kindest thing we can do is protect someone's remaining days from despair. Let them live in peace, not in terror of what's coming."
+      }
+    },
+    {
+      "id": "question_010",
+      "phase": "contemporary",
+      "question": "Wealth redistribution - Should the government significantly increase taxes on the wealthy to fund social programs?",
+      "option_a": "Yes, redistribute wealth through taxation",
+      "option_b": "No, people should keep what they earn",
+      "perspective_for": {
+        "person": "Franklin D. Roosevelt",
+        "years": "1882-1945",
+        "role": "32nd U.S. President",
+        "quote": "The test of our progress is not whether we add more to the abundance of those who have much; it is whether we provide enough for those who have too little. No business which depends for existence on paying less than living wages has any right to continue. Wealth concentrated in few hands is a threat to democracy itself."
+      },
+      "perspective_against": {
+        "person": "Ayn Rand",
+        "years": "1905-1982",
+        "role": "Russian-American philosopher and novelist",
+        "quote": "The man who produces while others dispose of his product, is a slave. Wealth is not taken from the poor—it is created by the productive. To penalize achievement and reward need is to destroy the very engine of human progress. Each person has a moral right to exist for their own sake."
+      }
+    },
+    {
+      "id": "question_011",
+      "phase": "timeless",
+      "question": "Death penalty - Should the state have the right to execute convicted murderers?",
+      "option_a": "Yes, some crimes deserve death",
+      "option_b": "No, the state should never kill",
+      "perspective_for": {
+        "person": "Hammurabi",
+        "years": "c. 1810-1750 BCE",
+        "role": "Babylonian king, creator of legal code",
+        "quote": "If a man put out the eye of another man, his eye shall be put out. If a builder builds a house that collapses and kills the owner, the builder shall be put to death. Justice requires proportionality. The most heinous crimes demand the ultimate penalty. This is not vengeance—it is balance."
+      },
+      "perspective_against": {
+        "person": "Sister Helen Prejean",
+        "years": "1939-present",
+        "role": "Catholic nun, anti-death penalty activist",
+        "quote": "People are more than the worst thing they have ever done in their lives. The death penalty is a poor person's issue. It is about who has money and power and who doesn't. We cannot teach that killing is wrong by killing. When we execute, we become the very thing we condemn."
+      }
+    },
+    {
+      "id": "question_012",
+      "phase": "timeless",
+      "question": "Torture for information - A terrorist knows where a bomb is hidden that will kill thousands. Is torture justified to get the information?",
+      "option_a": "Yes, torture is justified to save lives",
+      "option_b": "No, torture is always wrong",
+      "perspective_for": {
+        "person": "Winston Churchill",
+        "years": "1874-1965",
+        "role": "British Prime Minister during WWII",
+        "quote": "When you have to kill a man, it costs nothing to be polite. But when the fate of civilization hangs in the balance, we must be willing to do what is necessary, however distasteful. The survival of democracy may require us to temporarily suspend its niceties. History will judge us by outcomes, not methods."
+      },
+      "perspective_against": {
+        "person": "John McCain",
+        "years": "1936-2018",
+        "role": "U.S. Senator, Vietnam War POW",
+        "quote": "I know from personal experience that the abuse of prisoners sometimes produces good intelligence, but often produces bad intelligence because under torture a person will say anything to make the pain stop. But more importantly, it serves as a great propaganda tool for those who recruit people to fight against us."
+      }
+    },
+    {
+      "id": "question_013",
+      "phase": "personal_existential",
+      "question": "Euthanasia - Should terminally ill people in unbearable pain have the right to end their own lives with medical assistance?",
+      "option_a": "Yes, they have the right to die with dignity",
+      "option_b": "No, life is sacred and should not be ended",
+      "perspective_for": {
+        "person": "Brittany Maynard",
+        "years": "1984-2014",
+        "role": "Death with dignity advocate",
+        "quote": "I am not 'committing suicide.' I am dying from cancer. My question is: Who has the right to tell me that I don't deserve this choice? That I deserve to suffer for weeks or months in tremendous amounts of physical and emotional pain? My life is mine to protect and defend. This is my choice."
+      },
+      "perspective_against": {
+        "person": "Mother Teresa",
+        "years": "1910-1997",
+        "role": "Catholic nun, missionary",
+        "quote": "There is something beautiful in seeing the poor accept their lot, to suffer it like Christ's Passion. The world gains much from their suffering. We are all pencils in the hand of God. He writes through us, and however imperfect we are, He writes beautifully. Life is sacred until natural death."
+      }
+    },
+    {
+      "id": "question_014",
+      "phase": "contemporary",
+      "question": "Absolute free speech - Should hate speech be legally protected as free expression?",
+      "option_a": "No, hate speech causes harm and should be banned",
+      "option_b": "Yes, all speech should be protected",
+      "perspective_for": {
+        "person": "Noam Chomsky",
+        "years": "1928-present",
+        "role": "American linguist and political activist",
+        "quote": "If we don't believe in freedom of expression for people we despise, we don't believe in it at all. The smart way to keep people passive is to limit the spectrum of acceptable opinion, but allow very lively debate within that spectrum. Censorship, even of hateful ideas, is the tool of tyrants."
+      },
+      "perspective_against": {
+        "person": "Karl Popper",
+        "years": "1902-1994",
+        "role": "Austrian-British philosopher",
+        "quote": "Unlimited tolerance must lead to the disappearance of tolerance. If we extend unlimited tolerance even to those who are intolerant, if we are not prepared to defend a tolerant society against the onslaught of the intolerant, then the tolerant will be destroyed, and tolerance with them. We must claim the right to suppress them if necessary."
+      }
+    },
+    {
+      "id": "question_015",
+      "phase": "contemporary",
+      "question": "Climate action - Should governments implement aggressive climate policies even if they significantly harm economic growth?",
+      "option_a": "Yes, climate action must be the priority",
+      "option_b": "No, economic growth cannot be sacrificed",
+      "perspective_for": {
+        "person": "Greta Thunberg",
+        "years": "2003-present",
+        "role": "Swedish environmental activist",
+        "quote": "You say you love your children above all else, and yet you are stealing their future. What is the point of economic growth if we have no planet to live on? We cannot solve a crisis without treating it as a crisis. Our house is on fire—I am here to say, our house is on fire."
+      },
+      "perspective_against": {
+        "person": "Bjørn Lomborg",
+        "years": "1965-present",
+        "role": "Danish author, climate economist",
+        "quote": "Climate change is real and man-made, but we need to be smart about solutions. Poverty kills more people than climate change ever will. Lifting billions out of poverty requires cheap energy now. We can address climate change through innovation and prosperity, not by making people poorer through economically destructive policies."
+      }
+    },
+    {
+      "id": "question_016",
+      "phase": "contemporary",
+      "question": "Abortion rights - Should abortion be legally available to women who choose it?",
+      "option_a": "Yes, women have the right to choose",
+      "option_b": "No, abortion is morally wrong",
+      "perspective_for": {
+        "person": "Ruth Bader Ginsburg",
+        "years": "1933-2020",
+        "role": "U.S. Supreme Court Justice",
+        "quote": "The decision whether or not to bear a child is central to a woman's life, to her well-being and dignity. It is a decision she must make for herself. When government controls that decision, she is being treated as less than a fully adult human responsible for her own choices. Forced motherhood is forced labor."
+      },
+      "perspective_against": {
+        "person": "Martin Luther King Jr.",
+        "years": "1929-1968",
+        "role": "American civil rights leader",
+        "quote": "Injustice anywhere is a threat to justice everywhere. The Negro cannot win if he is willing to sacrifice the futures of his children for immediate personal comfort and safety. Life is God's gift. To deny the right to life is to deny the sacred. We must protect the most vulnerable among us—the unborn included."
+      }
+    },
+    {
+      "id": "question_017",
+      "phase": "contemporary",
+      "question": "Universal healthcare - Should healthcare be guaranteed as a right to all citizens, paid for by taxes?",
+      "option_a": "Yes, healthcare is a human right",
+      "option_b": "No, healthcare should be market-based",
+      "perspective_for": {
+        "person": "Tommy Douglas",
+        "years": "1904-1986",
+        "role": "Canadian politician, 'Father of Medicare'",
+        "quote": "I came to believe that health services ought not to have a price tag on them. No one should be denied access to medical care because of inability to pay. A civilized society ensures that all citizens can see a doctor when they're sick, regardless of their bank account."
+      },
+      "perspective_against": {
+        "person": "Milton Friedman",
+        "years": "1912-2006",
+        "role": "American economist, Nobel laureate",
+        "quote": "A society that puts equality before freedom will get neither. A society that puts freedom before equality will get a high degree of both. Government healthcare creates inefficiency, rationing, and reduces the incentive for innovation. The free market, with all its imperfections, produces better outcomes than bureaucracy ever could."
+      }
     }
   ]
 }
