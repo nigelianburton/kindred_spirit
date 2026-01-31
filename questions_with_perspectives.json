@@ -1329,6 +1329,82 @@
         "role": "Greek philosopher",
         "quote": "Justice is the excellence of the soul, and the just man will not pervert justice for personal relationships. The person who knows what is right but does wrong because of family loyalty is no better than the person who acts unjustly for money. True love of family requires helping them face the consequences of their actions, not shielding them from justice."
       }
+    },
+    {
+      "id": "question_071",
+      "phase": "timeless",
+      "question": "Moral luck - Two drunk drivers make the same choice. One hits no one, the other kills a child. Should they receive the same punishment?",
+      "option_a": "Yes, the intent and action were identical",
+      "option_b": "No, outcomes matter morally",
+      "perspective_for": {
+        "person": "Thomas Nagel",
+        "years": "1937-present",
+        "role": "American philosopher",
+        "quote": "The problem of moral luck challenges our deepest assumptions about responsibility. If two people take the same risk with the same reckless state of mind, and only one of them causes harm due to factors beyond their control, it seems arbitrary to treat them differently. Yet we do. This reveals that our moral judgments are contaminated by factors that should be irrelevant."
+      },
+      "perspective_against": {
+        "person": "Bernard Williams",
+        "years": "1929-2003",
+        "role": "English moral philosopher",
+        "quote": "The idea that moral value is independent of luck is an illusion. What happens matters morally, not just what we intend. The driver who kills someone has something to regret that the other doesn't. There is no coherent system of ethics that can eliminate luck from moral assessment. Life is not fair, and morality reflects that."
+      }
+    },
+    {
+      "id": "question_072",
+      "phase": "contemporary",
+      "question": "Religious practices - Should religious practices that cause suffering be protected as religious freedom?",
+      "option_a": "No, harm prevention overrides religious freedom",
+      "option_b": "Yes, religious freedom is fundamental",
+      "perspective_for": {
+        "person": "Richard Dawkins",
+        "years": "1941-present",
+        "role": "British evolutionary biologist",
+        "quote": "Religious faith is one of the world's great evils, comparable to the smallpox virus but harder to eradicate. We should no more allow harmful religious practices in the name of 'religious freedom' than we allow harmful medical practices in the name of medical freedom. Children especially deserve protection from harmful religious indoctrination and practices."
+      },
+      "perspective_against": {
+        "person": "Abdullahi Ahmed An-Na'im",
+        "years": "1946-present",
+        "role": "Sudanese-American scholar of Islam and human rights",
+        "quote": "Religious freedom is not a luxury or a Western imposition—it is essential to human dignity. Who decides what counts as 'harm'? Usually the majority. Throughout history, religious freedom has been suppressed in the name of protecting people from 'harmful' beliefs. True tolerance requires allowing practices we find uncomfortable, provided they don't violate clear principles of harm to others."
+      }
+    },
+    {
+      "id": "question_073",
+      "phase": "timeless",
+      "question": "Existential purpose - Is a meaningful life possible without belief in objective purpose or divine meaning?",
+      "option_a": "No, without God life is meaningless",
+      "option_b": "Yes, we create our own meaning",
+      "perspective_for": {
+        "person": "Fyodor Dostoevsky",
+        "years": "1821-1881",
+        "role": "Russian novelist and philosopher",
+        "quote": "If God does not exist, everything is permitted. Without the divine, there is no basis for moral value, no ultimate purpose, no reason to choose good over evil. We may try to create meaning, but it is ultimately arbitrary and hollow. The modern attempt to find meaning without God leads inevitably to nihilism and despair."
+      },
+      "perspective_against": {
+        "person": "Albert Camus",
+        "years": "1913-1960",
+        "role": "French philosopher and author",
+        "quote": "The struggle itself toward the heights is enough to fill a man's heart. We must imagine Sisyphus happy. The absurd does not liberate; it binds. It does not authorize all actions. 'Everything is permitted' does not mean that nothing is forbidden. The absurd teaches us to live without appeal, without hope, but fully and completely. This revolt gives life its value."
+      }
+    },
+    {
+      "id": "question_074",
+      "phase": "timeless",
+      "question": "Personal identity - If you could upload your consciousness to a computer, would the digital copy be 'you'?",
+      "option_a": "Yes, consciousness is information",
+      "option_b": "No, you would be dead",
+      "perspective_for": {
+        "person": "Marvin Minsky",
+        "years": "1927-2016",
+        "role": "American cognitive scientist and AI pioneer",
+        "quote": "The brain is just a meat machine. There is nothing magical about biological neurons that couldn't be replicated in silicon. If we could upload our minds, it would be us—the same patterns, the same memories, the same consciousness. Identity is information, and information can be copied and preserved. This is not death but transformation and potential immortality."
+      },
+      "perspective_against": {
+        "person": "John Searle",
+        "years": "1932-present",
+        "role": "American philosopher",
+        "quote": "You can't upload consciousness because consciousness is not a computer program. It depends on specific biological processes in the brain. A simulation of digestion doesn't digest anything. A simulation of consciousness isn't conscious—it's just a simulation. The digital copy might act like you, but you would still be dead. It would be a new entity, not a continuation of your existence."
+      }
     }
   ]
 }
