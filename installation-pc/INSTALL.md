@@ -1,9 +1,9 @@
-# Kindred Spirit Environment Installation (Windows + RTX 6000 Ada)
+# Kindred Spirit Environment Installation (Windows + RTX 6000 Pro)
 
 ## Prerequisites
 - Windows 10/11
-- NVIDIA RTX 6000 Ada (48GB VRAM)
-- CUDA 12.6+ drivers installed
+- NVIDIA RTX 6000 Pro (48GB VRAM)
+- CUDA 12.8+ drivers installed (required for RTX 6000 Pro instruction set)
 - Miniconda3 or Anaconda
 
 ## Installation Steps
@@ -21,12 +21,12 @@ conda env create -f installation-pc/kindred_conda.yaml
 conda activate kindred_conda
 ```
 
-### Step 3: Install PyTorch with CUDA 12.6 Support
+### Step 3: Install PyTorch with CUDA 12.8 Support
 
-**CRITICAL**: This project requires PyTorch with CUDA 12.6+ for RTX 6000 Ada compatibility.
+**CRITICAL**: RTX 6000 Pro requires CUDA 12.8+ due to its different instruction set.
 
 ```bash
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
+pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu128
 ```
 
 ### Step 4: Verify Installation
@@ -37,10 +37,10 @@ python -c "import torch; print(f'PyTorch: {torch.__version__}'); print(f'CUDA Av
 
 Expected output:
 ```
-PyTorch: 2.5.1+cu126
+PyTorch: 2.x.x+cu128
 CUDA Available: True
-CUDA Version: 12.6
-GPU: NVIDIA RTX 6000 Ada Generation
+CUDA Version: 12.8
+GPU: NVIDIA RTX 6000 Pro
 ```
 
 ### Step 5: Install Unsloth (Optional but Recommended)
@@ -54,8 +54,8 @@ pip install "unsloth[cu126] @ git+https://github.com/unslothai/unsloth.git"
 ## Environment Details
 
 - **Python**: 3.11.14
-- **PyTorch**: 2.5.1+cu126
-- **CUDA**: 12.6
+- **PyTorch**: 2.x.x+cu128
+- **CUDA**: 12.8
 - **Key Libraries**:
   - transformers==5.0.0
   - peft==0.18.1
@@ -75,7 +75,7 @@ set PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 
 ### PyTorch Not Seeing GPU
 1. Verify NVIDIA drivers: `nvidia-smi`
-2. Check CUDA version: Should be 12.6 or higher
+2. Check CUDA version: Should be 12.8 or higher (required for RTX 6000 Pro)
 3. Reinstall PyTorch with correct CUDA version
 
 ### Import Errors
@@ -84,12 +84,12 @@ set PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 pip install --force-reinstall <package-name>
 ```
 
-## Why CUDA 12.6?
+## Why CUDA 12.8?
 
-- **RTX 6000 Ada**: Requires CUDA 12.x for full feature support
-- **Performance**: CUDA 12.6 optimized for Ada Lovelace architecture
+- **RTX 6000 Pro**: Different instruction set requires CUDA 12.8 minimum
+- **Performance**: CUDA 12.8 optimized for professional GPU architecture
 - **Compatibility**: Ensures all features work with 48GB VRAM
-- **Future-proof**: Latest stable CUDA release
+- **Required**: Lower CUDA versions will not work properly with RTX 6000 Pro
 
 ## Quick Test
 
