@@ -14,6 +14,7 @@ Features:
 Outputs: {username}_kindred_spirit.json
 """
 
+import argparse
 import json
 import sys
 from datetime import datetime
@@ -460,11 +461,16 @@ class SummaryView(QWidget):
 
 class CalibrationWindow(QMainWindow):
     """Main application window"""
-    def __init__(self):
+    def __init__(self, questions_path: Optional[Path] = None,
+                 output_path: Optional[Path] = None,
+                 window_title: Optional[str] = None):
         super().__init__()
         self.questions: List[CalibrationQuestion] = []
         self.responses: List[UserResponse] = []
         self.current_question_index = 0
+        self.questions_path = questions_path
+        self.output_path = output_path
+        self.window_title = window_title
         
         self.setup_ui()
         self.load_questions()
@@ -472,7 +478,7 @@ class CalibrationWindow(QMainWindow):
     
     def setup_ui(self):
         """Setup the main window"""
-        self.setWindowTitle("Kindred Spirit Calibration")
+        self.setWindowTitle(self.window_title or "Kindred Spirit Calibration")
         self.setMinimumSize(1200, 800)
         
         # Central widget
@@ -496,7 +502,7 @@ class CalibrationWindow(QMainWindow):
     
     def load_questions(self):
         """Load questions from JSON file"""
-        json_path = Path(__file__).parent / "questions_with_perspectives.json"
+        json_path = self.questions_path or (Path(__file__).parent / "questions_with_perspectives.json")
         try:
             with open(json_path, 'r', encoding='utf-8') as f:
                 data = json.load(f)
@@ -572,7 +578,7 @@ class CalibrationWindow(QMainWindow):
         }
         
         # Save to file
-        output_path = Path(__file__).parent / f"{username}_kindred_spirit.json"
+        output_path = self.output_path or (Path(__file__).parent / f"{username}_kindred_spirit.json")
         try:
             with open(output_path, 'w', encoding='utf-8') as f:
                 json.dump(output_data, f, indent=2, ensure_ascii=False)
@@ -590,15 +596,31 @@ class CalibrationWindow(QMainWindow):
             )
 
 
+def parse_args(argv: List[str]) -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Kindred Spirit Calibration - Qt GUI")
+    parser.add_argument("--questions", type=str, default=None, help="Path to questions JSON file")
+    parser.add_argument("--output", type=str, default=None, help="Path to output JSON file")
+    parser.add_argument("--title", type=str, default=None, help="Window title override")
+    return parser.parse_args(argv)
+
+
 def main():
     """Main entry point"""
+    args = parse_args(sys.argv[1:])
+    questions_path = Path(args.questions).expanduser() if args.questions else None
+    output_path = Path(args.output).expanduser() if args.output else None
+
     app = QApplication(sys.argv)
     
     # Set application style
     app.setStyle('Fusion')
     
     # Create and show main window
-    window = CalibrationWindow()
+    window = CalibrationWindow(
+        questions_path=questions_path,
+        output_path=output_path,
+        window_title=args.title
+    )
     window.show()
     
     sys.exit(app.exec())

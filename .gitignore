@@ -40,8 +40,14 @@ env/
 *.gguf
 *.ggml
 
-# Exclude GGUF model directory
+# Exclude all model directories
+models/
 models-gguf/
+
+# But DO track files in nigel_lora_adapter (tracked by LFS)
+!nigel_lora_adapter/**/*.safetensors
+!nigel_lora_adapter/**/*.pt
+!nigel_lora_adapter/**/*.pth
 
 # Training outputs
 training_log*.txt

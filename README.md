@@ -51,7 +51,7 @@ graph TD;
 - **Base Model:** Qwen2.5-7B (Abliterated)
 - **Adapter:** LoRA (Rank 64 / Alpha 128)
 - **Hardware:** NVIDIA RTX 6000 Ada (48GB VRAM)
-- **Framework:** Unsloth / HuggingFace PEFT
+- **Framework:** HuggingFace Transformers + PEFT
 - **Training Data:** 74 high-stakes moral dilemmas + 400 general examples
 
 ---

@@ -6,9 +6,26 @@
 - CUDA 12.8+ drivers installed (required for RTX 6000 Pro instruction set)
 - Miniconda3 or Anaconda
 
-## Installation Steps
+## Quick Start (Automated)
 
-### Step 1: Create Conda Environment (Without PyTorch)
+Run the automated setup script:
+
+```bash
+cd c:/_GITN/kindred_spirit/installation-pc
+setup.bat
+```
+
+This will:
+1. Create the conda environment with all dependencies
+2. Install PyTorch with CUDA 12.8 support
+3. Verify the installation
+4. Display next steps
+
+## Manual Installation Steps
+
+### Step 1: Create Conda Environment
+
+The environment now includes PyTorch with CUDA 12.8 in the YAML:
 
 ```bash
 cd c:/_GITN/kindred_spirit
@@ -21,15 +38,7 @@ conda env create -f installation-pc/kindred_conda.yaml
 conda activate kindred_conda
 ```
 
-### Step 3: Install PyTorch with CUDA 12.8 Support
-
-**CRITICAL**: RTX 6000 Pro requires CUDA 12.8+ due to its different instruction set.
-
-```bash
-pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu128
-```
-
-### Step 4: Verify Installation
+### Step 3: Verify Installation
 
 ```bash
 python -c "import torch; print(f'PyTorch: {torch.__version__}'); print(f'CUDA Available: {torch.cuda.is_available()}'); print(f'CUDA Version: {torch.version.cuda}'); print(f'GPU: {torch.cuda.get_device_name(0)}')"
@@ -41,14 +50,6 @@ PyTorch: 2.x.x+cu128
 CUDA Available: True
 CUDA Version: 12.8
 GPU: NVIDIA RTX 6000 Pro
-```
-
-### Step 5: Install Unsloth (Optional but Recommended)
-
-For efficient LoRA training:
-
-```bash
-pip install "unsloth[cu126] @ git+https://github.com/unslothai/unsloth.git"
 ```
 
 ## Environment Details
